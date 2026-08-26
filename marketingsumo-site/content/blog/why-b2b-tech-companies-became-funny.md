@@ -3,6 +3,7 @@ title: "Why B2B Tech Companies Suddenly Became Funny"
 date: 2026-07-01
 category: "Content"
 description: "B2B tech discovered comedy. The real reason is economic: when information became free, attention became the scarce resource."
+image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787741421/Codex_Image_26_Aug_2026_18_48_35_cdyd0p.png"
 ---
 Welcome to the first issue of The Marketing Lab.
 
