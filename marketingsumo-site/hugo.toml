@@ -1,0 +1,18 @@
+baseURL = "https://marketingsumo.co/"
+languageCode = "en-sg"
+title = "Marketing Sumo"
+enableRobotsTXT = true
+summaryLength = 28
+
+# The landing page is served as-is from static/index.html, so Hugo does not
+# generate a homepage. It only builds the /blog section.
+disableKinds = ["home", "taxonomy", "term"]
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  description = "Field notes on B2B marketing for HR tech in Asia, by Adrian Tan."
+  bookingUrl = "https://zcal.co/adriantan/30min"
+  authorName = "Adrian Tan"
+  authorAvatar = "https://res.cloudinary.com/dkplx6o5e/image/upload/w_80,h_80,c_fill,g_face/v1787726884/1785815448604_xdar8f.png"

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ .Title }} — Marketing Sumo</title>
+<meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+<meta property="og:title" content="{{ .Title }} — Marketing Sumo">
+<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with .Params.image }}<meta property="og:image" content="{{ . }}">{{ end }}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0b0b0d;--bg-raised:#121216;--bg-card:#17171c;--line:rgba(255,255,255,.08);
+    --text:#f4f4f2;--text-dim:#a3a3ad;--yellow:#ffd60a;--yellow-deep:#e6b800;
+    --radius:14px;--font-head:'Space Grotesk',system-ui,sans-serif;--font-body:'Inter',system-ui,sans-serif;--maxw:1120px;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:var(--font-body);font-size:16px;line-height:1.7;-webkit-font-smoothing:antialiased}
+  h1,h2,h3{font-family:var(--font-head);line-height:1.16;letter-spacing:-.01em}
+  a{color:inherit;text-decoration:none}
+  img{max-width:100%}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 20px}
+  .measure{max-width:720px;margin:0 auto;padding:0 20px}
+  /* header */
+  header{position:sticky;top:0;z-index:100;background:rgba(11,11,13,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:66px}
+  .logo{font-family:var(--font-head);font-weight:700;font-size:1.15rem;letter-spacing:-.02em;white-space:nowrap}
+  .logo .sumo{color:var(--yellow)}.logo .dot{display:inline-block;width:.45em;height:.45em;background:var(--yellow);border-radius:50%;margin-left:.15em}
+  .nav-right{display:flex;align-items:center;gap:22px}
+  .nav-right a{font-size:.92rem;color:var(--text-dim);transition:color .15s}.nav-right a:hover{color:var(--text)}
+  .btn{display:inline-flex;align-items:center;gap:.5em;font-family:var(--font-head);font-weight:600;border-radius:999px;transition:transform .18s,background .18s;white-space:nowrap;cursor:pointer;border:0}
+  .btn-primary{background:var(--yellow);color:#111;font-size:.9rem;padding:10px 20px}.btn-primary:hover{background:var(--yellow-deep);transform:translateY(-2px)}
+  .btn-lg{font-size:1rem;padding:14px 26px}
+  /* blog index */
+  .bloghead{padding:64px 0 20px}
+  .kicker{display:inline-block;font-size:.78rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--yellow);margin-bottom:14px}
+  .bloghead h1{font-size:clamp(2rem,5vw,3rem);margin-bottom:14px}
+  .bloghead p{color:var(--text-dim);max-width:620px}
+  .posts{padding:34px 0 80px;display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+  .card{background:var(--bg-card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:transform .2s,border-color .2s}
+  .card:hover{transform:translateY(-4px);border-color:rgba(255,214,10,.35)}
+  .cover{aspect-ratio:16/10;position:relative;display:flex;align-items:flex-end;padding:16px;overflow:hidden}
+  .cover img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(.2)}
+  .cover.gen1{background:radial-gradient(120% 120% at 15% 15%,rgba(255,214,10,.28),transparent 55%),linear-gradient(135deg,#1c1c22,#0b0b0d)}
+  .cover.gen2{background:radial-gradient(120% 120% at 85% 20%,rgba(255,214,10,.22),transparent 55%),linear-gradient(200deg,#22201a,#0b0b0d)}
+  .cover.gen3{background:radial-gradient(130% 130% at 50% 120%,rgba(255,214,10,.25),transparent 55%),linear-gradient(160deg,#191a20,#0b0b0d)}
+  .cover .tag{position:relative;z-index:1;font-size:.7rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#111;background:var(--yellow);padding:4px 10px;border-radius:999px}
+  .card .body{padding:20px 20px 22px;display:flex;flex-direction:column;flex:1}
+  .card .date{font-size:.78rem;color:var(--text-dim);margin-bottom:8px}
+  .card h2{font-size:1.18rem;margin-bottom:10px}
+  .card .excerpt{font-size:.92rem;color:var(--text-dim);flex:1}
+  .card .more{margin-top:14px;font-size:.85rem;color:var(--yellow);font-weight:600}
+  /* post */
+  .back{display:inline-block;margin:26px 0 0;font-size:.85rem;color:var(--text-dim)}
+  .back:hover{color:var(--yellow)}
+  .post-head{padding:14px 0 26px}
+  .post-head .tag{font-size:.72rem;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--yellow);margin-bottom:14px;display:inline-block}
+  .post-head h1{font-size:clamp(1.9rem,4.5vw,2.7rem);margin-bottom:16px}
+  .meta{display:flex;align-items:center;gap:12px;color:var(--text-dim);font-size:.9rem}
+  .meta .avatar{width:34px;height:34px;border-radius:50%;object-fit:cover;filter:grayscale(1)}
+  .postcover{max-width:1000px;margin:8px auto 40px;padding:0 20px}
+  .postcover .frame{aspect-ratio:16/8;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);display:flex;align-items:center;justify-content:center}
+  .postcover .frame img{width:100%;height:100%;object-fit:cover}
+  .postcover .frame.gen{background:radial-gradient(120% 120% at 20% 10%,rgba(255,214,10,.22),transparent 55%),linear-gradient(135deg,#1c1c22,#0b0b0d)}
+  .postcover .ph{font-family:var(--font-head);font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:.8rem;color:#111;background:var(--yellow);padding:6px 14px;border-radius:999px}
+  .prose{font-size:1.08rem;color:#e7e7e4}
+  .prose>*+*{margin-top:1.25em}
+  .prose h2{font-size:1.5rem;margin-top:1.8em;color:var(--text)}
+  .prose h3{font-size:1.2rem;margin-top:1.5em}
+  .prose p{color:#d9d9d6}
+  .prose a{color:var(--yellow);border-bottom:1px solid rgba(255,214,10,.35)}
+  .prose ul,.prose ol{padding-left:1.3em;color:#d9d9d6}
+  .prose li{margin:.4em 0}
+  .prose blockquote{border-left:3px solid var(--yellow);padding:2px 0 2px 18px;margin:1.4em 0;font-family:var(--font-head);font-size:1.25rem;line-height:1.4;color:var(--text)}
+  .prose code{background:var(--bg-card);border:1px solid var(--line);border-radius:6px;padding:.1em .4em;font-size:.9em}
+  .prose pre{background:var(--bg-card);border:1px solid var(--line);border-radius:10px;padding:16px;overflow:auto}
+  .prose pre code{background:none;border:0;padding:0}
+  .prose strong{color:#fff}
+  .prose img{border-radius:var(--radius);border:1px solid var(--line)}
+  hr.sep{border:0;border-top:1px solid var(--line);margin:48px auto;max-width:720px}
+  .endcta{max-width:720px;margin:0 auto 70px;background:var(--bg-raised);border:1px solid var(--line);border-radius:var(--radius);padding:32px;text-align:center}
+  .endcta h3{font-size:1.4rem;margin-bottom:10px}
+  .endcta p{color:var(--text-dim);margin-bottom:20px}
+  /* footer */
+  footer{padding:40px 0;border-top:1px solid var(--line)}
+  .foot{display:flex;flex-wrap:wrap;gap:16px;justify-content:space-between;align-items:center}
+  .foot small{color:var(--text-dim)}
+  .foot .logo{font-size:1.15rem}
+  @media(max-width:900px){.posts{grid-template-columns:repeat(2,1fr)}}
+  @media(max-width:600px){.posts{grid-template-columns:1fr}.nav-right a.hidem{display:none}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="/">Marketing<span class="sumo">Sumo</span><span class="dot" aria-hidden="true"></span></a>
+  <div class="nav-right">
+    <a class="hidem" href="/#services">Services</a>
+    <a class="hidem" href="/#pricing">Pricing</a>
+    <a class="hidem" href="/#about">About</a>
+    <a class="btn btn-primary" href="{{ .Site.Params.bookingUrl }}" target="_blank" rel="noopener">Book a consultation</a>
+  </div>
+</div></header>
+
+<main>{{ block "main" . }}{{ end }}</main>
+
+<footer><div class="wrap foot">
+  <a class="logo" href="/">Marketing<span class="sumo">Sumo</span><span class="dot" aria-hidden="true"></span></a>
+  <small>© {{ now.Year }} Marketing Sumo · Singapore</small>
+</div></footer>
+</body>
+</html>

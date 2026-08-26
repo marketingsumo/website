@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="bloghead"><div class="wrap">
+  <span class="kicker">The Marketing Lab</span>
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}{{ . }}{{ end }}
+</div></section>
+
+<div class="wrap"><div class="posts">
+{{ range $i, $p := .Pages }}
+  <a class="card" href="{{ $p.RelPermalink }}">
+    {{ with $p.Params.image }}
+      <div class="cover"><img src="{{ . }}" alt="">{{ with $p.Params.category }}<span class="tag">{{ . }}</span>{{ end }}</div>
+    {{ else }}
+      <div class="cover gen{{ add (mod $i 3) 1 }}">{{ with $p.Params.category }}<span class="tag">{{ . }}</span>{{ end }}</div>
+    {{ end }}
+    <div class="body">
+      <span class="date">{{ $p.Date.Format "Jan 2, 2006" }}</span>
+      <h2>{{ $p.Title }}</h2>
+      <p class="excerpt">{{ with $p.Params.description }}{{ . }}{{ else }}{{ $p.Summary | plainify | truncate 150 }}{{ end }}</p>
+      <span class="more">Read →</span>
+    </div>
+  </a>
+{{ end }}
+</div></div>
+{{ end }}

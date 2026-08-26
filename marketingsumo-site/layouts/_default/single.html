@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="measure"><a class="back" href="/blog/">← All posts</a></div>
+
+<div class="measure post-head">
+  {{ with .Params.category }}<span class="tag">{{ . }}</span>{{ end }}
+  <h1>{{ .Title }}</h1>
+  <div class="meta">
+    <img class="avatar" src="{{ .Site.Params.authorAvatar }}" alt="{{ .Site.Params.authorName }}">
+    <span>{{ .Site.Params.authorName }} · {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</span>
+  </div>
+</div>
+
+{{ with .Params.image }}
+<div class="postcover"><div class="frame"><img src="{{ . }}" alt="{{ $.Title }}"></div></div>
+{{ else }}
+<div class="postcover"><div class="frame gen">{{ with .Params.category }}<span class="ph">{{ . }}</span>{{ end }}</div></div>
+{{ end }}
+
+<article class="measure prose">
+  {{ .Content }}
+</article>
+
+<hr class="sep">
+
+<div class="endcta">
+  <h3>Marketing your HR tech product?</h3>
+  <p>I help growth-stage HR tech vendors win HR buyers in Asia. One new fractional client per quarter.</p>
+  <a class="btn btn-primary btn-lg" href="{{ .Site.Params.bookingUrl }}" target="_blank" rel="noopener">Book a 30-minute consultation</a>
+</div>
+{{ end }}
