@@ -3,6 +3,7 @@ title: "Stop Being the Bigger Person. Your Buyers Are Comparing You Anyway."
 date: 2026-08-05
 category: "Positioning"
 description: "'Never mention competitors' ignores how buyers actually buy. They're comparing you anyway, the only question is who shapes it."
+image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787745281/6_q9kahb.png"
 ---
 One piece of marketing advice refuses to die: "Never talk about your competitors."
 

@@ -3,6 +3,7 @@ title: "Your Event Didn't Fail. Your Marketing Did."
 date: 2026-07-22
 category: "Demand gen"
 description: "Events don't create demand. They reveal whether demand already exists. The failure usually happened months earlier."
+image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787744336/4_la5wr3.png"
 ---
 Last month, I spoke to a company disappointed with their event.
 

@@ -3,6 +3,7 @@ title: "Want a Sales Meeting? Stop Asking for One."
 date: 2026-08-26
 category: "Lead gen"
 description: "Ask for the meeting and you get ignored. Ask for their advice, their story, their opinion, and you get the meeting anyway."
+image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787745281/7_h8xlhx.png"
 ---
 There's an old saying in the startup world: ask for money, you get advice. Ask for advice, you get money.
 

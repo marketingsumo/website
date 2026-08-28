@@ -3,6 +3,7 @@ title: "Why Every B2B Company Should Have a Podcast"
 date: 2026-07-08
 category: "Podcasting"
 description: "Outbound is background noise. A podcast flips the dynamic from 'let me sell you' to 'I'd like to hear your perspective'."
+image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787744340/2_o8egwb.png"
 ---
 Most B2B companies are still trying to win attention in the worst possible way: cold emails, LinkedIn DMs, "quick 15-min demo?" requests.
 

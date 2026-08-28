@@ -3,6 +3,7 @@ title: "Nobody Wants to Read Your Customer Success Story"
 date: 2026-07-29
 category: "Case studies"
 description: "Case studies are written for the vendor, not the buyer. Your future customers don't care that someone succeeded, they care whether they will."
+image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787745280/5_hpgr66.png"
 ---
 I have yet to meet a B2B marketer who proudly tells me, "Our case studies are our biggest source of leads."
 
