@@ -9,7 +9,7 @@
 {{ range $i, $p := .Pages }}
   <a class="card" href="{{ $p.RelPermalink }}">
     {{ with $p.Params.image }}
-      <div class="cover"><img src="{{ . }}" alt="">{{ with $p.Params.category }}<span class="tag">{{ . }}</span>{{ end }}</div>
+      <div class="cover"><img src="{{ . }}" alt=""></div>
     {{ else }}
       <div class="cover gen{{ add (mod $i 3) 1 }}">{{ with $p.Params.category }}<span class="tag">{{ . }}</span>{{ end }}</div>
     {{ end }}
