@@ -68,7 +68,7 @@ Someone who answers *Hiring + Just researching* might get your latest hiring ben
 
 Same webinar. Completely different follow-up.
 
-![Polls — Ask the right questions]({{image_1}})
+![Polls — Ask the right questions](/images/01-polls-ask-the-right-questions.png)
 
 ---
 
@@ -94,7 +94,7 @@ Michelle has practically written the follow-up email for you. Do not send her a 
 
 That is no longer a random sales follow-up. She gave you the reason to contact her.
 
-![Q&A — Your accidental intent form]({{image_2}})
+![Q&A — Your accidental intent form](/images/02-qa-accidental-intent-form.png)
 
 ---
 
@@ -118,7 +118,7 @@ You have now achieved three useful things before going live:
 
 Send the speaker a one-page summary before the webinar: *47% asked about X. 31% asked about Y. Three enterprise accounts specifically mentioned Z.* It is much better preparation than blindly presenting the deck.
 
-![Registration — Collect intent early]({{image_3}})
+![Registration — Collect intent early](/images/03-registration-collect-intent-early.png)
 
 ---
 
@@ -148,7 +148,7 @@ Create an engagement score instead. The precise numbers are not sacred; the prin
 
 Someone who watched for an hour, answered three polls and asked about implementation deserves a different next action from someone who opened Zoom while making lunch and disappeared seven minutes later.
 
-![Reports — Score behaviour, not attendance]({{image_4}})
+![Reports — Score behaviour, not attendance](/images/04-reports-score-behaviour.png)
 
 ---
 
@@ -162,7 +162,7 @@ The timing matters. Interest is highest while people are hearing about the probl
 
 And what someone clicks tells you something. A person who clicks the ROI calculator and implementation guide is demonstrating a much more useful signal than an open on a generic recording email.
 
-![Resources — Deliver at the right moment]({{image_5}})
+![Resources — Deliver at the right moment](/images/05-resources-right-moment.png)
 
 ---
 
@@ -184,7 +184,7 @@ At a bare minimum, split attendees from no-shows. But that is only segmentation 
 
 One webinar does not need one follow-up. It needs the next useful thing for each person.
 
-![Follow-up — Five journeys, not one]({{image_6}})
+![Follow-up — Five journeys, not one](/images/06-follow-up-five-journeys.png)
 
 ---
 
@@ -202,7 +202,7 @@ The mindset shift is simple:
 
 Then repurpose it: a full on-demand session, LinkedIn clips, a carousel, an article, short Q&A posts, a poll-results post and perhaps a follow-up webinar. One hour can have a six-week content tail.
 
-![On-demand — Keep the webinar working]({{image_7}})
+![On-demand — Keep the webinar working](/images/07-on-demand-keep-working.png)
 
 ---
 
@@ -226,7 +226,7 @@ Suddenly, “the speaker only got 180 clicks” does not look disappointing. The
 
 That is how the next webinar gets smarter.
 
-![Source tracking — Know what works]({{image_8}})
+![Source tracking — Know what works](/images/08-source-tracking-know-what-works.png)
 
 ---
 
