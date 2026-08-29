@@ -1,0 +1,40 @@
+backend:
+  name: github
+  repo: marketingsumo/website
+  branch: main
+
+# Where images uploaded in the editor are stored (in the repo) and the URL they
+# resolve to on the live site (Hugo serves static/ at the site root).
+media_folder: "marketingsumo-site/static/images"
+public_folder: "/images"
+
+site_url: https://marketingsumo.co
+display_url: https://marketingsumo.co
+
+collections:
+  - name: "blog"
+    label: "Blog posts"
+    label_singular: "Blog post"
+    description: "The Marketing Lab articles. Click one to edit, or New Blog post to write one."
+    folder: "marketingsumo-site/content/blog"
+    create: true
+    slug: "{{slug}}"
+    identifier_field: "title"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+      - name: "category"
+        label: "Category"
+        widget: "select"
+        required: false
+        options:
+          - "Content"
+          - "Podcasting"
+          - "Conversion"
+          - "Demand gen"
+          - "Case studies"
+          - "Positioning"
+          - "Lead gen"
+      - { name: "description", label: "Short summary (shown on the blog card and in Google)", widget: "text", required: false }
+      - { name: "image", label: "Cover image (wide)", widget: "image", required: false, hint: "The cover shown on the blog card and at the top of the post." }
+      - { name: "body", label: "Body", widget: "markdown" }
