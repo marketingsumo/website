@@ -20,39 +20,39 @@ These show up everywhere: LinkedIn posts, website copy, cold outreach, case stud
 
 ### 1. The em-dash doing a period's job
 
-\*\*Slop:\*\* "AI drafts our content — then edits itself — before a human ever sees it."
+Slop: "AI drafts our content — then edits itself — before a human ever sees it."
 
-\*\*Fixed:\*\* "AI drafts our content. Then it edits itself. A human sees the final draft."
+Fixed: "AI drafts our content. Then it edits itself. A human sees the final draft."
 
 ### 2. The "it's not X, it's Y" reveal
 
-\*\*Slop:\*\* "This isn't a content problem. It's a leadership problem."
+Slop: "This isn't a content problem. It's a leadership problem."
 
-\*\*Fixed:\*\* "Leadership created this content problem."
+Fixed: "Leadership created this content problem."
 
 ### 3. Generic superlatives with nothing specific behind them
 
-\*\*Slop:\*\* "In today's fast-paced digital landscape, AI is revolutionizing how B2B teams unlock growth."
+Slop: "In today's fast-paced digital landscape, AI is revolutionizing how B2B teams unlock growth."
 
-\*\*Fixed:\*\* "AI cut our first-draft time from three hours to twenty minutes. It also made every post sound identical."
+Fixed: "AI cut our first-draft time from three hours to twenty minutes. It also made every post sound identical."
 
 ### 4. The list forced to exactly three items
 
-\*\*Slop:\*\* "To win in 2026, you need speed, personalization, and authenticity."
+Slop: "To win in 2026, you need speed, personalisation, and authenticity."
 
-\*\*Fixed:\*\* "To win in 2026, you need speed and personalization. Authenticity is table stakes, not a differentiator."
+Fixed: "To win in 2026, you need speed and personalisation. Authenticity is table stakes, not a differentiator."
 
 ### 5. The fake vulnerability hook
 
-\*\*Slop:\*\* "I failed. I cried. Then I learned the one lesson that changed everything."
+Slop: "I failed. I cried. Then I learned the one lesson that changed everything."
 
-\*\*Fixed:\*\* "I lost our biggest client in Q2 because I sent the proposal to the wrong contact. Here's the check I added to every send since."
+Fixed: "I lost our biggest client in Q2 because I sent the proposal to the wrong contact. Here's the check I added to every send since."
 
 ### 6. Hedge words stacked on top of each other
 
-\*\*Slop:\*\* "To some extent, arguably, this could potentially help improve engagement in certain contexts."
+Slop: "To some extent, arguably, this could potentially help improve engagement in certain contexts."
 
-\*\*Fixed:\*\* "This increased engagement 12 percent in our test. It won't work for every audience."
+Fixed: "This increased engagement 12 percent in our test. It won't work for every audience."
 
 ## The Fix, Part One: Edit Like Someone's Watching
 
