@@ -8,8 +8,6 @@ description: Six AI writing tells still showing up in B2B content (the em-dash,
   opinions instead of letting it invent its own.
 image: /images/codex-image-17-sept-2026-10_28_27.png
 ---
-\## The Excuse Expired
-
 I scrolled past four different B2B posts last week doing the exact same thing: an em-dash standing in for a period, a list padded or trimmed until it landed on exactly three items, a hook manufacturing vulnerability out of thin air with no fact behind it I could check.
 
 A year ago, I would have shrugged. Everyone was still working out what AI-assisted writing should sound like, and a few rough tells were the price of moving fast.
@@ -60,12 +58,12 @@ These show up everywhere: LinkedIn posts, website copy, cold outreach, case stud
 
 Before you hit publish, run this pass:
 
-- Find every em-dash. Read the sentence with a period instead. If the meaning holds, use the period.
-- Find every "it's not X, it's Y" sentence. Cut the setup and state the real claim.
-- Find every superlative with no number or name behind it (game-changing, unlock, revolutionize, fast-paced). Attach a specific result or delete the word.
-- Count your lists. If one landed on exactly three items, check whether three is true or just convenient. Let it be however many items are real.
-- Find your opening hook. If it names a failure with no detail someone could fact-check, name the real one or cut the hook.
-- Find stacked hedge words (to some extent, arguably, in many ways, potentially). Pick one claim and commit to it.
+* Find every em-dash. Read the sentence with a period instead. If the meaning holds, use the period.
+* Find every "it's not X, it's Y" sentence. Cut the setup and state the real claim.
+* Find every superlative with no number or name behind it (game-changing, unlock, revolutionize, fast-paced). Attach a specific result or delete the word.
+* Count your lists. If one landed on exactly three items, check whether three is true or just convenient. Let it be however many items are real.
+* Find your opening hook. If it names a failure with no detail someone could fact-check, name the real one or cut the hook.
+* Find stacked hedge words (to some extent, arguably, in many ways, potentially). Pick one claim and commit to it.
 
 Then run the read-aloud test. Read the paragraph out loud, to an empty room if you have to. If you would not say that sentence to a client's face in a meeting, delete it and write the sentence you'd actually say.
 
