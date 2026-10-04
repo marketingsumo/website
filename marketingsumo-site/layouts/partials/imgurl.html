@@ -1,0 +1,27 @@
+{{- /*
+  Returns an optimized URL for an image at a given width.
+  Usage: partial "imgurl.html" (dict "src" "/images/x.png" "w" 800)
+
+  - Local files (/images/..., uploaded via the CMS) go through the Netlify
+    Image CDN, which resizes and serves AVIF/WebP based on browser support.
+  - Cloudinary URLs get f_auto,q_auto,c_limit,w_N inserted after /upload/.
+  - Anything else is returned unchanged.
+  Optional "og" true returns a 1200x630 JPEG crop for social previews.
+*/ -}}
+{{- $src := .src -}}
+{{- $w := .w | default 1200 -}}
+{{- $out := $src -}}
+{{- if hasPrefix $src "/" -}}
+  {{- if .og -}}
+    {{- $out = printf "/.netlify/images?url=%s&w=1200&h=630&fit=cover&fm=jpg&q=80" (urlquery $src) -}}
+  {{- else -}}
+    {{- $out = printf "/.netlify/images?url=%s&w=%d" (urlquery $src) $w -}}
+  {{- end -}}
+{{- else if and (strings.Contains $src "res.cloudinary.com") (strings.Contains $src "/upload/v") -}}
+  {{- if .og -}}
+    {{- $out = replace $src "/upload/v" "/upload/c_fill,w_1200,h_630,f_jpg,q_auto/v" -}}
+  {{- else -}}
+    {{- $out = replace $src "/upload/v" (printf "/upload/f_auto,q_auto,c_limit,w_%d/v" $w) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $out -}}

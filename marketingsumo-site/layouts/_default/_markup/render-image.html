@@ -1,0 +1,9 @@
+{{- /* Markdown images in post bodies: resized, lazy-loaded, with intrinsic size to avoid layout shift. */ -}}
+{{- $src := .Destination -}}
+{{- $w := 0 -}}{{- $h := 0 -}}
+{{- if hasPrefix $src "/" -}}
+  {{- $file := printf "static%s" $src -}}
+  {{- if fileExists $file -}}{{- with imageConfig $file -}}{{- $w = .Width -}}{{- $h = .Height -}}{{- end -}}{{- end -}}
+{{- end -}}
+<img src="{{ partial "imgurl.html" (dict "src" $src "w" 720) }}" srcset="{{ partial "imgurl.html" (dict "src" $src "w" 720) }} 720w, {{ partial "imgurl.html" (dict "src" $src "w" 1440) }} 1440w" sizes="(max-width: 760px) calc(100vw - 40px), 680px" alt="{{ .Text }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $w }} width="{{ $w }}" height="{{ $h }}"{{ end }} loading="lazy" decoding="async">
+{{- /* */ -}}

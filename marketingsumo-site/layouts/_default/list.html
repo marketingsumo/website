@@ -9,7 +9,7 @@
 {{ range $i, $p := .Pages }}
   <a class="card" href="{{ $p.RelPermalink }}">
     {{ with $p.Params.image }}
-      <div class="cover"><img src="{{ . }}" alt=""></div>
+      <div class="cover"><img src="{{ partial "imgurl.html" (dict "src" . "w" 800) }}" srcset="{{ partial "imgurl.html" (dict "src" . "w" 400) }} 400w, {{ partial "imgurl.html" (dict "src" . "w" 800) }} 800w" sizes="(max-width: 600px) calc(100vw - 40px), (max-width: 900px) 50vw, 360px" width="800" height="450" alt="{{ $p.Title }}"{{ if ge $i 3 }} loading="lazy"{{ end }} decoding="async"></div>
     {{ else }}
       <div class="cover gen{{ add (mod $i 3) 1 }}">{{ with $p.Params.category }}<span class="tag">{{ . }}</span>{{ end }}</div>
     {{ end }}

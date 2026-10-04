@@ -62,3 +62,10 @@
   from = "/feed/*"
   to = "/blog/index.xml"
   status = 301
+
+# Static images are not fingerprinted, so cache for a week (not immutable).
+# Blog images are served via the Netlify Image CDN, which caches at the edge.
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
