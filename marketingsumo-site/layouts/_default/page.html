@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="measure post-head">
+  <h1>{{ .Title }}</h1>
+  {{ with .Lastmod }}<div class="meta"><span>Last updated {{ .Format "2 January 2006" }}</span></div>{{ end }}
+</div>
+
+<article class="measure prose">
+  {{ .Content }}
+</article>
+{{ end }}
