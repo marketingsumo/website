@@ -4,3 +4,61 @@
 
 [build.environment]
   HUGO_VERSION = "0.128.0"
+
+# ------------------------------------------------------------------
+# Legacy WordPress URLs (pre-Feb 2026 site). These still receive
+# Google impressions, so 301 them to the closest live page.
+# ------------------------------------------------------------------
+
+# Old fractional-CMO guide (93 impressions/90d). Point at the new
+# fractional-CMO service page once it exists.
+[[redirects]]
+  from = "/unlocking-success-how-to-choose-the-perfect-fractional-cmo-for-your-business/*"
+  to = "/#services"
+  status = 301
+
+[[redirects]]
+  from = "/listen-and-learn-how-ai-is-turning-sales-calls-into-marketing-gold/*"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/top-5-b2b-marketing-approaches-that-will-define-2025-is-your-strategy-future-ready/*"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/traffic-sumo/*"
+  to = "/#services"
+  status = 301
+
+# Point at /about/ and /contact/ pages once they exist.
+[[redirects]]
+  from = "/about/*"
+  to = "/#about"
+  status = 301
+
+[[redirects]]
+  from = "/contact/*"
+  to = "/#contact"
+  status = 301
+
+[[redirects]]
+  from = "/category/*"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/tag/*"
+  to = "/blog/"
+  status = 301
+
+[[redirects]]
+  from = "/author/*"
+  to = "/#about"
+  status = 301
+
+[[redirects]]
+  from = "/feed/*"
+  to = "/blog/index.xml"
+  status = 301
