@@ -63,9 +63,15 @@
   }
   </script>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" href="/fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/space-grotesk-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <style>
+  /* Self-hosted Google Fonts (OFL). Variable fonts, latin + latin-ext subsets. */
+  @font-face{font-family:'Inter';font-style:normal;font-weight:400 600;font-display:swap;src:url(/fonts/inter-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+  @font-face{font-family:'Inter';font-style:normal;font-weight:400 600;font-display:swap;src:url(/fonts/inter-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+  @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:500 700;font-display:swap;src:url(/fonts/space-grotesk-latin.woff2) format('woff2');unicode-range:U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD}
+  @font-face{font-family:'Space Grotesk';font-style:normal;font-weight:500 700;font-display:swap;src:url(/fonts/space-grotesk-latin-ext.woff2) format('woff2');unicode-range:U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF}
+  </style>
 
   <style>
     /* ================= Design tokens ================= */
@@ -397,17 +403,17 @@
   <section class="hero" aria-label="Introduction">
     <div class="wrap hero-grid">
       <div>
-        <span class="kicker reveal">Adrian Tan &middot; Fractional CMO for HR Tech &middot; Singapore &amp; Asia</span>
-        <h1 class="reveal">HR tech founders hire me when they need to <em>win HR buyers in Asia</em>.</h1>
-        <p class="lede reveal">You have a product, a sales team and an APAC opportunity. You do not need a generalist agency spending the first three months learning HR tech on your budget.</p>
-        <p class="lede reveal">I am a fractional CMO for growth-stage HR tech vendors. I set the marketing direction, do the work, and bring the HR audience I have spent more than a decade building.</p>
-        <div class="hero-ctas reveal">
+        <span class="kicker">Adrian Tan &middot; Fractional CMO for HR Tech &middot; Singapore &amp; Asia</span>
+        <h1>HR tech founders hire me when they need to <em>win HR buyers in Asia</em>.</h1>
+        <p class="lede">You have a product, a sales team and an APAC opportunity. You do not need a generalist agency spending the first three months learning HR tech on your budget.</p>
+        <p class="lede">I am a fractional CMO for growth-stage HR tech vendors. I set the marketing direction, do the work, and bring the HR audience I have spent more than a decade building.</p>
+        <div class="hero-ctas">
           <a class="btn btn-primary" href="https://zcal.co/adriantan/30min" target="_blank" rel="noopener">Book a 30-minute consultation</a>
           <a class="btn btn-ghost" href="#process">See how I work</a>
         </div>
-        <p class="hero-micro reveal"><strong>One new fractional client per quarter</strong> &middot; 30 minutes &middot; No commitment</p>
+        <p class="hero-micro"><strong>One new fractional client per quarter</strong> &middot; 30 minutes &middot; No commitment</p>
       </div>
-      <figure class="headshot reveal" id="headshot">
+      <figure class="headshot" id="headshot">
         <img fetchpriority="high" decoding="async" width="800" height="800" src="/images/home/adrian-tan-fractional-cmo-hr-tech.webp" alt="Adrian Tan, Fractional CMO for HR Tech" onerror="document.getElementById('headshot').classList.add('no-img')">
         <div class="fallback" aria-hidden="true">AT</div>
         <figcaption class="caption"><strong>Adrian Tan</strong><span>Fractional CMO for HR Tech</span></figcaption>
@@ -418,7 +424,7 @@
   <!-- ================= CREDIBILITY STRIP ================= -->
   <div class="credstrip" aria-label="Credentials">
     <div class="wrap">
-      <p class="reveal">Former HR founder <span>&middot;</span> Built a S$30M recruitment business <span>&middot;</span> Penguin Random House author <span>&middot;</span> Top 5% HR Influencer on Favikon</p>
+      <p>Former HR founder <span>&middot;</span> Built a S$30M recruitment business <span>&middot;</span> Penguin Random House author <span>&middot;</span> Top 5% HR Influencer on Favikon</p>
     </div>
   </div>
 
@@ -581,7 +587,7 @@
       <span class="kicker reveal">Client testimonials</span>
       <h2 class="h2 reveal" id="testimonials-h">What clients say.</h2>
       <div class="reveal" style="margin-top:30px">
-        <iframe id="testimonialto-marketingsumo-dark" src="https://embed.testimonial.to/w/marketingsumo/?theme=dark&card=base&loadMore=on&initialCount=20&randomize=on&hideDate=on" frameborder="0" scrolling="no" width="100%" title="Client testimonials"></iframe>
+        <iframe id="testimonialto-marketingsumo-dark" loading="lazy" src="https://embed.testimonial.to/w/marketingsumo/?theme=dark&card=base&loadMore=on&initialCount=20&randomize=on&hideDate=on" frameborder="0" scrolling="no" width="100%" title="Client testimonials"></iframe>
       </div>
     </div>
   </section>
@@ -746,8 +752,7 @@
   </div>
 </footer>
 
-<script type="text/javascript" src="https://testimonial.to/js/iframeResizer.min.js"></script>
-<script type="text/javascript">iFrameResize({log: false, checkOrigin: false}, "#testimonialto-marketingsumo-dark");</script>
+<script defer src="https://testimonial.to/js/iframeResizer.min.js" onload="iFrameResize({log: false, checkOrigin: false}, '#testimonialto-marketingsumo-dark')"></script>
 
 <script>
   // Current year
