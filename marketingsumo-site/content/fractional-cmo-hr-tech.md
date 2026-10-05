@@ -76,7 +76,7 @@ For a VP Sales or revenue lead, that means marketing you can hold to the same st
 Because HR buyers are a small, connected community, and they can tell quickly whether a vendor understands them.
 
 - **I've sat on both sides of the table.** Before Marketing Sumo, I spent a decade building HR businesses: more than 3,000 placements, S$30M in revenue and two HR Vendor of the Year awards.
-- **I already talk to your buyers.** 49K+ LinkedIn followers in the HR and HR tech community, 18K+ newsletter subscribers and 2M+ views on future-of-work content over 12+ years.
+- **I already talk to your buyers.** 49K+ LinkedIn followers in the HR and HR tech community, 18K+ LinkedIn newsletter subscribers and 2M+ views on future-of-work content over 12+ years.
 - **I interview HR leaders for a living.** I host *Rolling Stories*, Rolling Arrays' podcast with senior HR leaders from companies such as Singtel and Central Retail, and aTalent's *Trailblazer Podcast*, with guests from Moët Hennessy and Kredivo Group.
 - **I've done this work for HR tech brands.** A 2+ year content partnership with Rolling Arrays, the SAP SuccessFactors implementation firm; marketing partner for the launch of People Matters' TechHR Singapore; and fractional work across people analytics, workforce optimisation, background screening, HRIS partners and HR membership bodies.
 
