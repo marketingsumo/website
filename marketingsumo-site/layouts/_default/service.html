@@ -1,0 +1,43 @@
+{{ define "main" }}
+<section class="measure post-head svc-head">
+  {{ with .Params.kicker }}<span class="tag">{{ . }}</span>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Params.lead }}<p class="svc-lead">{{ . }}</p>{{ end }}
+  <div class="svc-ctas">
+    <a class="btn btn-primary btn-lg" href="{{ .Site.Params.bookingUrl }}" target="_blank" rel="noopener">Book a 30-minute consultation</a>
+    <a class="svc-ghost" href="#faq">Read the FAQ ↓</a>
+  </div>
+  {{ with .Params.facts }}
+  <dl class="svc-facts">
+    {{ range . }}<div><dt>{{ .label }}</dt><dd>{{ .value }}</dd></div>{{ end }}
+  </dl>
+  {{ end }}
+</section>
+
+<article class="measure prose">
+  {{ .Content }}
+
+  {{ with .Params.faq }}
+  <h2 id="faq">Frequently asked questions</h2>
+  {{ range . }}
+  <h3>{{ .q }}</h3>
+  <p>{{ .a }}</p>
+  {{ end }}
+  {{ end }}
+</article>
+
+<hr class="sep">
+{{ partial "endcta.html" . }}
+
+{{- /* Structured data: Service + Offer, FAQPage, BreadcrumbList */ -}}
+{{- $org := dict "@type" "ProfessionalService" "@id" "https://marketingsumo.co/#business" "name" "Marketing Sumo" "url" "https://marketingsumo.co/" -}}
+{{- $offer := dict "@type" "Offer" "price" (string .Params.price) "priceCurrency" "SGD" "availability" "https://schema.org/InStock" "priceSpecification" (dict "@type" "UnitPriceSpecification" "price" (string .Params.price) "priceCurrency" "SGD" "unitCode" "MON" "referenceQuantity" (dict "@type" "QuantitativeValue" "value" "1" "unitCode" "MON")) -}}
+{{- $service := dict "@context" "https://schema.org" "@type" "Service" "@id" (printf "%s#service" .Permalink) "name" "Fractional CMO for HR tech" "serviceType" "Fractional CMO" "description" .Description "url" .Permalink "provider" $org "areaServed" (slice (dict "@type" "Country" "name" "Singapore") (dict "@type" "Place" "name" "Asia")) "audience" (dict "@type" "BusinessAudience" "audienceType" "HR technology vendors") "offers" $offer -}}
+<script type="application/ld+json">{{ $service | jsonify | safeJS }}</script>
+{{- with .Params.faq }}
+{{- $qs := slice -}}
+{{- range . }}{{ $qs = $qs | append (dict "@type" "Question" "name" .q "acceptedAnswer" (dict "@type" "Answer" "text" .a)) }}{{ end -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $qs | jsonify | safeJS }}</script>
+{{- end }}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" (slice (dict "@type" "ListItem" "position" 1 "name" "Home" "item" "https://marketingsumo.co/") (dict "@type" "ListItem" "position" 2 "name" .Title "item" .Permalink)) | jsonify | safeJS }}</script>
+{{ end }}

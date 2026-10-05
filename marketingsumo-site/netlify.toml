@@ -10,11 +10,10 @@
 # Google impressions, so 301 them to the closest live page.
 # ------------------------------------------------------------------
 
-# Old fractional-CMO guide (93 impressions/90d). Point at the new
-# fractional-CMO service page once it exists.
+# Old fractional-CMO guide (93 impressions/90d) -> the fractional-CMO page.
 [[redirects]]
   from = "/unlocking-success-how-to-choose-the-perfect-fractional-cmo-for-your-business/*"
-  to = "/#services"
+  to = "/fractional-cmo-hr-tech/"
   status = 301
 
 [[redirects]]
@@ -29,7 +28,7 @@
 
 [[redirects]]
   from = "/traffic-sumo/*"
-  to = "/#services"
+  to = "/fractional-cmo-hr-tech/"
   status = 301
 
 # Point at /about/ and /contact/ pages once they exist.
