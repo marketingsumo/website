@@ -1,7 +1,7 @@
 ---
 title: Fractional CMO for HR Tech Companies in Singapore and Asia
 seoTitle: "Fractional CMO for HR Tech in Singapore: Pricing & Scope"
-description: "Hire a fractional CMO who already knows HR buyers in Asia. S$7,500 a month for about two days a week of strategy and hands-on execution. Cancel anytime."
+description: "Hire a fractional CMO who already knows HR buyers in Asia. S$7,500 a month for about two days a week of strategy and hands-on execution. One month's notice."
 layout: service
 kicker: Fractional CMO for HR tech
 lead: "A fractional CMO for HR tech is a senior marketing leader who works part-time inside your company, owning positioning, campaigns and pipeline without a full-time hire. Marketing Sumo is Adrian Tan's fractional CMO practice in Singapore: about two days a week for S$7,500 a month, for growth-stage HR tech vendors selling to HR buyers across Asia."
@@ -11,7 +11,7 @@ facts:
   - label: Time
     value: "About 2 days a week"
   - label: Commitment
-    value: "Pay as you go, cancel anytime"
+    value: "Monthly, 1 month's notice"
   - label: Availability
     value: "One new client per quarter"
 price: 7500
@@ -24,7 +24,7 @@ faq:
   - q: How much does a fractional CMO cost in Singapore?
     a: "Marketing Sumo's fractional CMO engagement is S$7,500 a month, pay as you go. It covers positioning, strategy and hands-on execution of content, campaigns and sales support. Ad spend, paid tools, external production and audience placements are billed separately."
   - q: Is there a minimum contract?
-    a: "No. The engagement is pay as you go and you can cancel anytime. I take on one new fractional client per quarter so each one gets real attention."
+    a: "No minimum term. The engagement runs month to month, and you can end it with one month's notice, as set out in the statement of work. I take on one new fractional client per quarter so each one gets real attention."
   - q: Do you only work with HR tech companies?
     a: "Yes, for fractional CMO engagements. I work with vendors selling HR technology in Singapore and across Asia, including people analytics, workforce optimisation, background screening, HRIS partners and HR membership bodies. That focus is the point: you don't pay for me to learn your market."
   - q: Can you help an HR tech vendor entering Asia?
@@ -56,7 +56,7 @@ For a VP Sales or revenue lead, that means marketing you can hold to the same st
 
 ## How much does a fractional CMO cost?
 
-**S$7,500 a month** for about two days a week, pay as you go, cancel anytime.
+**S$7,500 a month** for about two days a week. It runs month to month with no minimum term, and one month's notice to end it.
 
 **Included:** positioning, strategy and hands-on execution; content, campaigns and sales support; direct access to me.
 
@@ -66,7 +66,7 @@ For a VP Sales or revenue lead, that means marketing you can hold to the same st
 
 | | Fractional CMO (Marketing Sumo) | Full-time CMO | Marketing agency |
 |---|---|---|---|
-| Commitment | Pay as you go, cancel anytime | Permanent hire, plus recruiting time | Retainer, often with a minimum term |
+| Commitment | Month to month, one month's notice | Permanent hire, plus recruiting time | Retainer, often with a minimum term |
 | Who does the work | The person who sets the strategy | A leader who then needs a team | Usually account managers and junior staff |
 | HR tech market knowledge | Built in: former HR founder with an existing HR audience | Depends on the hire | Usually learned on your budget |
 | Best for | Growth-stage HR tech vendors with a product and a sales motion | Companies ready to build a full marketing department | Companies that need volume production |
