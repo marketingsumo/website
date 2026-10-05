@@ -6,7 +6,7 @@
   <h1>{{ .Title }}</h1>
   <div class="meta">
     <img class="avatar" width="34" height="34" src="{{ .Site.Params.authorAvatar }}" alt="{{ .Site.Params.authorName }}">
-    <span><a href="/about/" rel="author">{{ .Site.Params.authorName }}</a> · {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</span>
+    <span><a href="/about/" rel="author">{{ .Site.Params.authorName }}</a> · <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time> · {{ .ReadingTime }} min read</span>
   </div>
 </div>
 
@@ -23,4 +23,5 @@
 <hr class="sep">
 
 {{ partial "endcta.html" . }}
+{{ partial "schema-post.html" . }}
 {{ end }}

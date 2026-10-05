@@ -1,0 +1,30 @@
+{{- /* BlogPosting + BreadcrumbList for a blog post. Author and publisher point at the
+     entities defined on /about/ and the homepage; name/url are repeated because Google
+     doesn't resolve @id references across pages. */ -}}
+{{- $base := "https://marketingsumo.co/" -}}
+{{- $img := .Site.Params.ogImage -}}
+{{- with .Params.image }}{{ $img = partial "imgurl.html" (dict "src" . "og" true) | absURL }}{{ end -}}
+{{- $author := dict "@type" "Person" "@id" (print $base "about/#person") "name" .Site.Params.authorName "url" (print $base "about/") -}}
+{{- $publisher := dict "@type" "Organization" "@id" (print $base "#business") "name" "Marketing Sumo" "url" $base "logo" (dict "@type" "ImageObject" "url" (print $base "images/marketing-sumo-logo.png") "width" 180 "height" 180) -}}
+{{- $post := dict
+    "@type" "BlogPosting"
+    "@id" (print .Permalink "#article")
+    "headline" .Title
+    "description" (.Description | default .Summary | plainify)
+    "image" (slice (dict "@type" "ImageObject" "url" $img "width" 1200 "height" 630))
+    "datePublished" (.Date.Format "2006-01-02")
+    "dateModified" (.Lastmod.Format "2006-01-02")
+    "author" $author
+    "publisher" $publisher
+    "mainEntityOfPage" .Permalink
+    "url" .Permalink
+    "isPartOf" (dict "@type" "Blog" "@id" (print $base "blog/#blog") "name" "The Marketing Lab")
+    "inLanguage" "en-SG"
+    "wordCount" .WordCount
+-}}
+{{- with .Params.category }}{{ $post = merge $post (dict "articleSection" .) }}{{ end -}}
+{{- $crumbs := dict "@type" "BreadcrumbList" "itemListElement" (slice
+    (dict "@type" "ListItem" "position" 1 "name" "Home" "item" $base)
+    (dict "@type" "ListItem" "position" 2 "name" "The Marketing Lab" "item" (print $base "blog/"))
+    (dict "@type" "ListItem" "position" 3 "name" .Title "item" .Permalink)) -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" (slice $post $crumbs) | jsonify | safeJS }}</script>

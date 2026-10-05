@@ -1,0 +1,13 @@
+{{- /* CollectionPage + Blog (listing every post) + BreadcrumbList for /blog/. Built from
+     the post list, so new posts are included automatically. */ -}}
+{{- $base := "https://marketingsumo.co/" -}}
+{{- $posts := slice -}}
+{{- range .Pages -}}
+  {{- $posts = $posts | append (dict "@type" "BlogPosting" "@id" (print .Permalink "#article") "headline" .Title "url" .Permalink "datePublished" (.Date.Format "2006-01-02")) -}}
+{{- end -}}
+{{- $blog := dict "@type" "Blog" "@id" (print $base "blog/#blog") "name" "The Marketing Lab" "description" (.Description | default .Site.Params.description) "url" .Permalink "inLanguage" "en-SG" "author" (dict "@type" "Person" "@id" (print $base "about/#person") "name" .Site.Params.authorName "url" (print $base "about/")) "publisher" (dict "@type" "Organization" "@id" (print $base "#business") "name" "Marketing Sumo" "url" $base) "blogPost" $posts -}}
+{{- $page := dict "@type" "CollectionPage" "@id" (print .Permalink "#webpage") "url" .Permalink "name" (print .Title " — Marketing Sumo") "mainEntity" (dict "@id" (print $base "blog/#blog")) "isPartOf" (dict "@id" (print $base "#website")) -}}
+{{- $crumbs := dict "@type" "BreadcrumbList" "itemListElement" (slice
+    (dict "@type" "ListItem" "position" 1 "name" "Home" "item" $base)
+    (dict "@type" "ListItem" "position" 2 "name" "The Marketing Lab" "item" .Permalink)) -}}
+<script type="application/ld+json">{{ dict "@context" "https://schema.org" "@graph" (slice $page $blog $crumbs) | jsonify | safeJS }}</script>
