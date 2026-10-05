@@ -2,7 +2,6 @@
 title: "Build the Spreadsheet Your Buyer Was Going to Make Anyway 📊"
 seoTitle: "Buyer Enablement: Help Champions Get B2B Deals Approved"
 date: 2026-10-05
-draft: true
 category: "Conversion"
 image: /images/marketing-lab-010-build-the-spreadsheet.jpg
 description: "Most stalled B2B deals die in internal approval. Build the scorecard and business case your champion needs, plus a free HR software scorecard to copy."
