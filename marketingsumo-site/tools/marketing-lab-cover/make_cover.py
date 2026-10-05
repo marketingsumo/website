@@ -75,6 +75,18 @@ ILLUSTRATIONS = {
    <path d="M366 282 L414 332" stroke="{INK}" stroke-width="20" stroke-linecap="round"/>
    <path d="M290 212 c10-12 26-16 40-12" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
   </g></svg>''',
+ "scorecard": f'''<svg width="430" height="380" viewBox="0 0 430 380">
+  <g transform="rotate(-4 215 190)">
+   <rect x="30" y="50" width="370" height="290" rx="14" fill="#FFFDF8" stroke="{INK}" stroke-width="4"/>
+   <rect x="30" y="50" width="370" height="58" rx="14" fill="{Y}" stroke="{INK}" stroke-width="4"/>
+   <path d="M30 108 H400" stroke="{INK}" stroke-width="4"/>
+   {''.join(f'<path d="M{x} 50 V340" stroke="{INK}" stroke-width="3"/>' for x in (120,190,260,330))}
+   {''.join(f'<path d="M30 {y} H400" stroke="#CFC8BA" stroke-width="3"/>' for y in (166,224,282))}
+   {''.join(f'<text x="{x}" y="88" text-anchor="middle" font-family="Courier Prime" font-weight="700" font-size="19" fill="{INK}">{t}</text>' for x,t in ((155,"CHRO"),(225,"CFO"),(295,"IT"),(365,"PROC")))}
+   {''.join(f'<path d="M50 {y} h50" stroke="#BDB6AA" stroke-width="7" stroke-linecap="round"/>' for y in (137,195,253,311))}
+   {''.join(f'<path d="M140 {y} l11 11 20-24" fill="none" stroke="{YD}" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>' for y in (136,194,252,310))}
+   {''.join(f'<text x="{x}" y="{y}" text-anchor="middle" font-family="Archivo Black" font-size="30" fill="{INK}">?</text>' for x in (225,295,365) for y in (149,207,265,323))}
+  </g></svg>''',
  "pricetag": f'''<svg width="430" height="380" viewBox="0 0 430 380">
   <g transform="rotate(-8 215 190)">
    <path d="M120 70 H300 a14 14 0 0 1 14 14 V300 a14 14 0 0 1 -14 14 H120 a14 14 0 0 1 -14 -14 V84 a14 14 0 0 1 14 -14 Z" fill="#FFFDF8" stroke="{INK}" stroke-width="4"/>

@@ -1,0 +1,72 @@
+{
+ "issue": "010",
+ "headline": [
+  "Build the",
+  "Spreadsheet"
+ ],
+ "h1_size": 96,
+ "h1_top": 262,
+ "script": "your buyer was going to make anyway",
+ "script_size": 54,
+ "script_top": 470,
+ "script_underline": 700,
+ "sub_before": "Most stalled deals die in ",
+ "sub_mark": "internal approval,",
+ "sub_line2": "after a demo everyone liked.",
+ "sub_top": 604,
+ "bubble": [
+  "Can you send me",
+  "something for",
+  "my CFO?"
+ ],
+ "note_yellow": [
+  "CHRO: yes.",
+  "CFO: ?",
+  "IT: ?",
+  "Procurement: ?"
+ ],
+ "ny_top": 56,
+ "note_purple": [
+  "Give your champion",
+  "the business case."
+ ],
+ "notebook_title": "CHAMPION KIT",
+ "notebook_items": [
+  "Evaluation scorecard",
+  "Business case",
+  "Stakeholder answers",
+  "Mutual action plan"
+ ],
+ "footer": [
+  [
+   "clipboard",
+   "Score vendors",
+   "honestly"
+  ],
+  [
+   "receipt",
+   "One-page",
+   "business case"
+  ],
+  [
+   "users",
+   "Answer every",
+   "stakeholder"
+  ],
+  [
+   "calendar",
+   "Agree who signs,",
+   "and by when"
+  ]
+ ],
+ "illustration": "scorecard",
+ "illo_left": 880,
+ "illo_top": 300,
+ "illo_scale": 0.74,
+ "spark_left": 872,
+ "spark_top": 278,
+ "book_left": 1090,
+ "book_top": 585,
+ "star_left": 1452,
+ "star_top": 790
+}
