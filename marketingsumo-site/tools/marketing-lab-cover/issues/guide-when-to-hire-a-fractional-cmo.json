@@ -1,5 +1,4 @@
 {
- "issue": "010",
  "headline": [
   "When to Hire a",
   "Fractional CMO"
@@ -68,5 +67,6 @@
  "star_left": 1462,
  "illo_scale": 0.74,
  "book_left": 1090,
- "book_top": 585
+ "book_top": 585,
+ "stamp": "guide"
 }

@@ -3,7 +3,7 @@ title: "When to Hire a Fractional CMO (and How to Find a Good One)"
 seoTitle: "When to Hire a Fractional CMO and How to Find a Good One"
 date: 2026-10-05
 category: "Fractional CMO"
-image: /images/marketing-lab-010-when-to-hire-a-fractional-cmo.jpg
+image: /images/guide-when-to-hire-a-fractional-cmo.jpg
 description: "Hire a fractional CMO when you need more leads or awareness than founder-led marketing can deliver. How to spot the right moment, and how to vet one."
 ---
 **Short answer:** hire a fractional CMO when you have a product and a sales team, you need more leads or more awareness than founder-led marketing can produce, and you aren't ready to pay for a full-time CMO. To find a good one, check three things: how well they understand your sector, their track record, and their reputation among the people you sell to.

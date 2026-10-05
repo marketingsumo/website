@@ -118,6 +118,7 @@ body{{width:1600px;height:900px;overflow:hidden;position:relative;background:#F2
 .issue{{left:722px;top:48px;border:4px solid {Y};padding:6px 18px 4px;transform:rotate(-3deg);text-align:center;
  font-family:'Courier Prime';color:{Y};line-height:1}}
 .issue small{{display:block;font-size:27px;letter-spacing:1px}}.issue strong{{font-size:54px;font-weight:700}}
+.issue .guide{{display:block;font-size:44px;letter-spacing:2px;padding:14px 2px 10px}}
 .h1{{left:56px;top:{c.get("h1_top",238)}px;font-family:'Archivo Black';font-size:{c.get("h1_size",92)}px;line-height:1.02;letter-spacing:-1.5px;width:820px}}
 .script{{left:56px;top:{c["script_top"]}px;font-family:Caveat;font-weight:700;font-size:{c.get("script_size",100)}px;color:{Y};line-height:1;letter-spacing:1px}}
 .scriptline{{left:60px;top:{c["script_top"]+c.get("script_size",100)-6}px}}
@@ -151,8 +152,8 @@ mark{{background:{Y};color:{INK};padding:0 4px}}
 <div class="abs brand">{FLASK}<b>The Marketing Lab<sup>*</sup></b></div>
 <div class="abs tag">IDEAS. EXPERIMENTS. BREAKDOWNS.<br>THAT MOVE THE NEEDLE.</div>
 <div class="abs tagline">{underline(300, Y, 4)}</div>
-<div class="abs issue"><small>ISSUE</small><strong>{html.escape(c["issue"])}</strong></div>
-<div class="abs spark2">{SPARK_Y}</div>
+<div class="abs issue">{"<strong class=guide>GUIDE</strong>" if c.get("stamp")=="guide" else "<small>ISSUE</small><strong>" + html.escape(c["issue"]) + "</strong>"}</div>
+{"" if c.get("stamp")=="guide" else f'<div class="abs spark2">{SPARK_Y}</div>'}
 <div class="abs h1">{head_lines}</div>
 <div class="abs script">{html.escape(c["script"])}</div>
 <div class="abs scriptline">{underline(c.get("script_underline", 640), Y, 5)}</div>
