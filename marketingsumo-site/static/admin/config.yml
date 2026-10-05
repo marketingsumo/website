@@ -36,6 +36,7 @@ collections:
           - "Case studies"
           - "Positioning"
           - "Lead gen"
+          - "Fractional CMO"
       - { name: "description", label: "Short summary (shown on the blog card and in Google)", widget: "text", required: false }
       - { name: "image", label: "Cover image (wide)", widget: "image", required: false, hint: "The cover shown on the blog card and at the top of the post." }
       - { name: "body", label: "Body", widget: "markdown" }

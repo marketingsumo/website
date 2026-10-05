@@ -32,7 +32,7 @@
 {{- /* Structured data: Service + Offer, FAQPage, BreadcrumbList */ -}}
 {{- $org := dict "@type" "ProfessionalService" "@id" "https://marketingsumo.co/#business" "name" "Marketing Sumo" "url" "https://marketingsumo.co/" -}}
 {{- $offer := dict "@type" "Offer" "price" (string .Params.price) "priceCurrency" "SGD" "availability" "https://schema.org/InStock" "priceSpecification" (dict "@type" "UnitPriceSpecification" "price" (string .Params.price) "priceCurrency" "SGD" "unitCode" "MON" "referenceQuantity" (dict "@type" "QuantitativeValue" "value" "1" "unitCode" "MON")) -}}
-{{- $service := dict "@context" "https://schema.org" "@type" "Service" "@id" (printf "%s#service" .Permalink) "name" "Fractional CMO for HR tech" "serviceType" "Fractional CMO" "description" .Description "url" .Permalink "provider" $org "areaServed" (slice (dict "@type" "Country" "name" "Singapore") (dict "@type" "Place" "name" "Asia")) "audience" (dict "@type" "BusinessAudience" "audienceType" "HR technology vendors") "offers" $offer -}}
+{{- $service := dict "@context" "https://schema.org" "@type" "Service" "@id" (printf "%s#service" .Permalink) "name" "Fractional CMO for HR tech" "serviceType" "Fractional CMO" "description" .Description "url" .Permalink "provider" $org "areaServed" (slice (dict "@type" "Country" "name" "Singapore") (dict "@type" "Place" "name" "Asia")) "audience" (dict "@type" "BusinessAudience" "audienceType" "HR technology vendors") "offers" (cond (isset .Params "auditprice") (slice $offer (dict "@type" "Offer" "name" "Marketing audit and game plan" "price" (string .Params.auditPrice) "priceCurrency" "SGD")) (slice $offer)) -}}
 <script type="application/ld+json">{{ $service | jsonify | safeJS }}</script>
 {{- with .Params.faq }}
 {{- $qs := slice -}}

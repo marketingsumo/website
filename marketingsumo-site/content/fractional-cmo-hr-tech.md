@@ -1,20 +1,21 @@
 ---
 title: Fractional CMO for HR Tech Companies in Singapore and Asia
 seoTitle: "Fractional CMO for HR Tech in Singapore: Pricing & Scope"
-description: "Hire a fractional CMO who already knows HR buyers in Asia. S$7,500 a month for about two days a week of strategy and hands-on execution. One month's notice."
+description: "Hire a fractional CMO who already knows HR buyers in Asia. S$9,500 a month for about two days a week of strategy and hands-on execution. One month's notice."
 layout: service
 kicker: Fractional CMO for HR tech
-lead: "A fractional CMO for HR tech is a senior marketing leader who works part-time inside your company, owning positioning, campaigns and pipeline without a full-time hire. Marketing Sumo is Adrian Tan's fractional CMO practice in Singapore: about two days a week for S$7,500 a month, for growth-stage HR tech vendors selling to HR buyers across Asia."
+lead: "A fractional CMO for HR tech is a senior marketing leader who works part-time inside your company, owning positioning, campaigns and pipeline without a full-time hire. Marketing Sumo is Adrian Tan's fractional CMO practice in Singapore: about two days a week for S$9,500 a month, for growth-stage HR tech vendors selling to HR buyers across Asia."
 facts:
   - label: Price
-    value: "S$7,500 / month"
+    value: "S$9,500 / month"
   - label: Time
     value: "About 2 days a week"
   - label: Commitment
     value: "Monthly, 1 month's notice"
   - label: Availability
     value: "One new client per quarter"
-price: 7500
+price: 9500
+auditPrice: 7000
 lastmod: 2026-10-05
 faq:
   - q: What is a fractional CMO?
@@ -22,7 +23,7 @@ faq:
   - q: How many hours does a fractional CMO work?
     a: "A Marketing Sumo engagement is about two days a week. That time goes to the work that moves pipeline: setting direction, writing and creating, reviewing with sales and launching campaigns. It isn't spent on status meetings."
   - q: How much does a fractional CMO cost in Singapore?
-    a: "Marketing Sumo's fractional CMO engagement is S$7,500 a month, pay as you go. It covers positioning, strategy and hands-on execution of content, campaigns and sales support. Ad spend, paid tools, external production and audience placements are billed separately."
+    a: "Marketing Sumo's fractional CMO engagement is S$9,500 a month, month to month. A one-off marketing audit and game plan is S$7,000. It covers positioning, strategy and hands-on execution of content, campaigns and sales support. Ad spend, paid tools, external production and audience placements are billed separately."
   - q: Is there a minimum contract?
     a: "No minimum term. The engagement runs month to month, and you can end it with one month's notice, as set out in the statement of work. I take on one new fractional client per quarter so each one gets real attention."
   - q: Do you only work with HR tech companies?
@@ -31,6 +32,8 @@ faq:
     a: "Yes. If you have a product and a sales motion and you want to win HR buyers in Singapore or the wider region, I can help you adapt your positioning and message to how CHROs and HR leaders here evaluate software, and bring the HR audience I've built in the region."
   - q: What happens on the first call?
     a: "It's a free 30-minute call with no commitment. You tell me what you sell, where you are and where you're stuck, and I give you my honest read on what I'd fix first, whether or not we end up working together."
+  - q: Can we start with something smaller than a retainer?
+    a: "Yes. A one-off marketing audit and game plan costs S$7,000. You get an audit of your market, message, funnel and current marketing across digital and offline, and a prioritised plan for what to fix first, whether or not we go on to work together."
   - q: Can I just buy access to your audience?
     a: "Yes. Newsletter ads, sponsored LinkedIn posts, articles, videos, whitepapers, webinars and keynotes are available as separate one-off services, starting from S$1,200. They're not a substitute for a fractional engagement, but they work well alongside one."
 ---
@@ -41,6 +44,7 @@ I set your marketing direction and do the work, so there's no handover to an acc
 - **Get clear on the market.** Positioning, messaging and a practical go-to-market plan, built around how CHROs and HR leaders in Asia actually evaluate software.
 - **Give sales something useful to work with.** Campaigns, content and sales-supporting assets designed to start relevant conversations with HR buyers, not just fill a marketing calendar.
 - **Build authority in the HR market.** Whitepapers, articles, video and podcast-led content that helps your company sound like it belongs in the room.
+- **Open doors with hard-to-reach accounts.** Where it fits, I use my personal network of CHROs to secure interest from target accounts that ignore cold outreach.
 - **Reach an audience already interested in HR and work.** When it makes sense, your message goes out through the LinkedIn, newsletter, podcast and event channels I've spent 12+ years building.
 
 ## How does an engagement work?
@@ -56,9 +60,13 @@ For a VP Sales or revenue lead, that means marketing you can hold to the same st
 
 ## How much does a fractional CMO cost?
 
-**S$7,500 a month** for about two days a week. It runs month to month with no minimum term, and one month's notice to end it.
+**S$9,500 a month** for about two days a week. It runs month to month with no minimum term, and one month's notice to end it.
 
-**Included:** positioning, strategy and hands-on execution; content, campaigns and sales support; direct access to me.
+**Not ready for a retainer?** Start with a one-off **marketing audit and game plan for S$7,000**: an audit of your market, message, funnel and current marketing across digital and offline, and a prioritised plan for what to fix first.
+
+For a full breakdown of what fractional CMOs charge in Singapore and how that compares with a full-time hire or an agency, see [how much a fractional CMO costs in Singapore](/blog/fractional-cmo-cost-singapore/).
+
+**Included:** positioning, strategy and hands-on execution; content, campaigns and sales support; outreach to hard-to-reach accounts through my CHRO network; direct access to me.
 
 **Not included:** ad spend; paid tools and software licences; external production such as video crews, designers, printing or event costs; and placements with my audience, which are [priced separately](/#pricing).
 
@@ -93,3 +101,5 @@ I'm also a Penguin Random House author and a top 5% HR influencer on Favikon.
 - you want someone who already understands HR buyers.
 
 **It's probably not the right fit** if you only need a cheap content factory, a social-media posting schedule or a large agency team.
+
+Not sure if the timing is right? Read [when to hire a fractional CMO, and how to find a good one](/blog/when-to-hire-a-fractional-cmo/).
