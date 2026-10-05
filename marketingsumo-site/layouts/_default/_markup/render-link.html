@@ -1,0 +1,6 @@
+{{- /* External links open in a new tab; referral/affiliate links get rel="sponsored nofollow". */ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $external := and $u.Host (ne $u.Host "marketingsumo.co") -}}
+{{- $sponsored := findRE `(?i)[?&](ref|refer|referral|aff|affiliate|via)=|/refer(ral)?[/?]|/aff/` .Destination -}}
+<a href="{{ .Destination | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $external }} target="_blank" rel="{{ if $sponsored }}sponsored nofollow {{ end }}noopener"{{ end }}>{{ .Text | safeHTML }}</a>
+{{- /* */ -}}

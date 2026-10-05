@@ -53,8 +53,12 @@
   .nav{display:flex;align-items:center;justify-content:space-between;height:66px}
   .logo{font-family:var(--font-head);font-weight:700;font-size:1.15rem;letter-spacing:-.02em;white-space:nowrap}
   .logo .sumo{color:var(--yellow)}.logo .dot{display:inline-block;width:.45em;height:.45em;background:var(--yellow);border-radius:50%;margin-left:.15em}
-  .nav-right{display:flex;align-items:center;gap:22px}
-  .nav-right a{font-size:.92rem;color:var(--text-dim);transition:color .15s}.nav-right a:hover{color:var(--text)}
+  .nav-links{display:flex;align-items:center;gap:26px;list-style:none}
+  .nav-links a{font-size:.92rem;color:var(--text-dim);transition:color .15s;white-space:nowrap}
+  .nav-links a:hover,.nav-links a[aria-current]{color:var(--text)}
+  .nav-links a.btn-primary,.nav-links a.btn-primary:hover{color:#111}
+  .burger{display:none;background:none;border:0;cursor:pointer;padding:8px}
+  .burger span{display:block;width:22px;height:2px;background:var(--text);margin:5px 0;transition:.25s}
   .btn{display:inline-flex;align-items:center;gap:.5em;font-family:var(--font-head);font-weight:600;border-radius:999px;transition:transform .18s,background .18s;white-space:nowrap;cursor:pointer;border:0}
   .btn-primary{background:var(--yellow);color:#111;font-size:.9rem;padding:10px 20px}.btn-primary:hover{background:var(--yellow-deep);transform:translateY(-2px)}
   .btn-lg{font-size:1rem;padding:14px 26px}
@@ -106,7 +110,7 @@
   .prose img{border-radius:var(--radius);border:1px solid var(--line);height:auto}
   hr.sep{border:0;border-top:1px solid var(--line);margin:48px auto;max-width:720px}
   .endcta{max-width:720px;margin:0 auto 70px;background:var(--bg-raised);border:1px solid var(--line);border-radius:var(--radius);padding:32px;text-align:center}
-  .endcta h3{font-size:1.4rem;margin-bottom:10px}
+  .endcta .endcta-title{font-family:var(--font-head);font-weight:600;font-size:1.4rem;line-height:1.16;color:var(--text);margin-bottom:10px}
   .endcta p{color:var(--text-dim);margin-bottom:20px}
   /* footer */
   footer{padding:40px 0;border-top:1px solid var(--line)}
@@ -114,18 +118,34 @@
   .foot small{color:var(--text-dim)}
   .foot .logo{font-size:1.15rem}
   @media(max-width:900px){.posts{grid-template-columns:repeat(2,1fr)}}
-  @media(max-width:600px){.posts{grid-template-columns:1fr}.nav-right a.hidem{display:none}}
+  @media(max-width:768px){
+    .nav-links{position:fixed;top:66px;left:0;right:0;flex-direction:column;gap:0;background:var(--bg-raised);border-bottom:1px solid var(--line);max-height:0;overflow:hidden;transition:max-height .3s ease}
+    .nav-links.open{max-height:420px}
+    .nav-links li{width:100%;text-align:center;border-top:1px solid var(--line)}
+    .nav-links a{display:block;padding:16px}
+    .nav-links a.btn-primary{display:inline-flex;margin:14px auto;padding:10px 20px}
+    .burger{display:block}
+    .burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+    .burger.open span:nth-child(2){opacity:0}
+    .burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  }
+  @media(max-width:600px){.posts{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
 <header><div class="wrap nav">
-  <a class="logo" href="/">Marketing<span class="sumo">Sumo</span><span class="dot" aria-hidden="true"></span></a>
-  <div class="nav-right">
-    <a class="hidem" href="/#services">Services</a>
-    <a class="hidem" href="/#pricing">Pricing</a>
-    <a class="hidem" href="/#about">About</a>
-    <a class="btn btn-primary" href="{{ .Site.Params.bookingUrl }}" target="_blank" rel="noopener">Book a consultation</a>
-  </div>
+  <a class="logo" href="/" aria-label="Marketing Sumo home">Marketing<span class="sumo">Sumo</span><span class="dot" aria-hidden="true"></span></a>
+  <nav aria-label="Main">
+    <ul class="nav-links" id="navLinks">
+      <li><a href="/#services">Services</a></li>
+      <li><a href="/#work">Work</a></li>
+      <li><a href="/#pricing">Pricing</a></li>
+      <li><a href="/#about">About</a></li>
+      <li><a href="/blog/"{{ if eq .Section "blog" }} aria-current="page"{{ end }}>Blog</a></li>
+      <li><a class="btn btn-primary" href="{{ .Site.Params.bookingUrl }}" target="_blank" rel="noopener">Book a 30-minute consultation</a></li>
+    </ul>
+  </nav>
+  <button class="burger" id="burger" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks"><span></span><span></span><span></span></button>
 </div></header>
 
 <main>{{ block "main" . }}{{ end }}</main>
@@ -134,5 +154,14 @@
   <a class="logo" href="/">Marketing<span class="sumo">Sumo</span><span class="dot" aria-hidden="true"></span></a>
   <small><a href="/privacy/">Privacy</a> · © {{ now.Year }} Marketing Sumo Pte Ltd · UEN 202139389W · Singapore</small>
 </div></footer>
+<script>
+  // Mobile nav (same behaviour as the homepage)
+  (function(){
+    var burger=document.getElementById('burger'),links=document.getElementById('navLinks');
+    function set(open){links.classList.toggle('open',open);burger.classList.toggle('open',open);burger.setAttribute('aria-expanded',open)}
+    burger.addEventListener('click',function(){set(!links.classList.contains('open'))});
+    links.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){set(false)})});
+  })();
+</script>
 </body>
 </html>

@@ -69,7 +69,7 @@ Then run the read-aloud test. Read the paragraph out loud, to an empty room if y
 
 ### The scalable version
 
-Ruben Hassid's approach turns this checklist into a standing rule instead of a one-time pass. Build a file (he calls it anti-ai-writing-style.md), or grab his free pre-made one at \[how-to-ai.guide](https://how-to-ai.guide) (it asks for your email, skip the paid upsell), listing every word, phrase, and pattern you're banning: delve, unlock, leverage, "let's dive in," "it's not X, it's Y," em dashes, forced rule-of-three lists. Upload it to whatever AI tool you draft with, and open every session with: "Read my anti-AI writing style file first. It contains every known pattern of AI writing I want to avoid. Apply these as rules to everything you write for me." Then ask it to audit each draft against that file before you publish.
+Ruben Hassid's approach turns this checklist into a standing rule instead of a one-time pass. Build a file (he calls it anti-ai-writing-style.md), or grab his free pre-made one at [how-to-ai.guide](https://how-to-ai.guide) (it asks for your email, skip the paid upsell), listing every word, phrase, and pattern you're banning: delve, unlock, leverage, "let's dive in," "it's not X, it's Y," em dashes, forced rule-of-three lists. Upload it to whatever AI tool you draft with, and open every session with: "Read my anti-AI writing style file first. It contains every known pattern of AI writing I want to avoid. Apply these as rules to everything you write for me." Then ask it to audit each draft against that file before you publish.
 
 The file does the work. The prompt just points at it.
 
@@ -79,7 +79,7 @@ AI has no opinions of its own and no lived experience to draw on. It only has pa
 
 The fix is to feed it the one thing it's missing before it drafts a single sentence: your actual opinion, in your actual words. That's easier to do by talking than typing. Dictate your real take on a topic, unfiltered, then hand the transcript to AI and ask it to structure and tighten what you actually said, not invent something new.
 
-I've been using Typeless, a voice keyboard that makes you smarter, to do exactly this. Use my link to \[join and get a $5 credit for Typeless Pro](https://www.typeless.com/refer?code=IODFHB6).
+I've been using Typeless, a voice keyboard that makes you smarter, to do exactly this. Use my link to [join and get a $5 credit for Typeless Pro](https://www.typeless.com/refer?code=IODFHB6).
 
 Full transparency: that's a referral link. I get a small kickback if you sign up.
 

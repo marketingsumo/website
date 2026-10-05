@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 description: "How Marketing Sumo collects, uses and protects personal data, in line with Singapore's Personal Data Protection Act (PDPA)."
-layout: page
+layout: legal
 lastmod: 2026-10-05
 ---
 This policy explains what personal data Marketing Sumo collects through marketingsumo.co, why, who it is shared with, and how you can access, correct or withdraw consent for it. It follows Singapore's Personal Data Protection Act 2012 (PDPA).
