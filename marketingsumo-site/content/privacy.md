@@ -2,13 +2,13 @@
 title: Privacy Policy
 description: "How Marketing Sumo collects, uses and protects personal data, in line with Singapore's Personal Data Protection Act (PDPA)."
 layout: page
-lastmod: 2026-10-04
+lastmod: 2026-10-05
 ---
 This policy explains what personal data Marketing Sumo collects through marketingsumo.co, why, who it is shared with, and how you can access, correct or withdraw consent for it. It follows Singapore's Personal Data Protection Act 2012 (PDPA).
 
 ## Who we are
 
-marketingsumo.co is run by [[ENTITY_UEN]], a fractional marketing consultancy based in Singapore ("Marketing Sumo", "I", "me").
+marketingsumo.co is run by Marketing Sumo Pte Ltd (UEN 202139389W), a fractional marketing consultancy based in Singapore ("Marketing Sumo", "I", "me").
 
 For any privacy question or request, contact my Data Protection Officer, Adrian Tan, at [adrian@marketingsumo.co](mailto:adrian@marketingsumo.co).
 
