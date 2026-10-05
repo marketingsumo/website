@@ -81,7 +81,7 @@ If your champion walks into those meetings with the answers already written, you
 
 I built a free scorecard you can copy and use, whether you're an HR leader choosing software or a vendor helping a champion get a deal approved.
 
-**[Make your own copy of the HR Software Evaluation Scorecard (Google Sheets)](https://docs.google.com/spreadsheets/d/1m1nkf3BzfXQTOVwFwMc8QcgtabMLtRLFfZhFhL5v3Zo/copy)**
+**[Make your own copy of the HR Software Evaluation Scorecard (Google Sheets)](https://docs.google.com/spreadsheets/d/1lXFSXwH11bUbxi6kgxFlxDDuT31PuIN6rgkTTzfbc5U/copy)**
 
 It has three tabs:
 
