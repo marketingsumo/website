@@ -17,9 +17,9 @@ lastmod: 2026-10-05
 ---
 ## From recruitment founder to fractional CMO
 
-I spent more than a decade co-founding and running **RecruitPlus**, a Singapore recruitment firm I built from scratch to more than 3,000 placements and S$30M in total billings. Along the way we won HR Vendor of the Year, were shortlisted for the Global Recruiter Asia Pacific awards, and ran what was probably Singapore's first viral YouTube recruitment campaign, with 2 million views before that was even a thing. I was also named **SHRI Entrepreneur of the Year in 2013**.
+I spent more than a decade co-founding and running **RecruitPlus**, a Singapore recruitment firm I built from scratch to more than 3,000 placements and S$30M in total billings. Along the way, RecruitPlus was named in Human Resources magazine's HR Vendors of the Year in both 2013 and 2014, was a Commended Winner at The Global Recruiter Asia Pacific Recruitment Industry Awards 2013, and ran what was probably Singapore's first viral YouTube recruitment campaign, with 2 million views before that was even a thing. At SHRI's Singapore HR Awards 2013, I was named **Leading HR Entrepreneur**.
 
-Then I sold out, tried a few other things and worked for other people, and somewhere along the way realised the corporate world and I had grown apart. In 2021 I went solo. I'd failed at self-employment once before; the second time, I figured it out.
+Then I sold my stake, tried a few other things and worked for other people, and somewhere along the way realised the corporate world and I had grown apart. In 2021 I went solo. I'd failed at self-employment once before; the second time, I figured it out.
 
 ## What I do now
 
