@@ -1,8 +1,9 @@
 ---
 title: "Nobody Wants to Read Your Customer Success Story"
+seoTitle: "How to Write HR Tech Case Studies Buyers Actually Read"
 date: 2026-07-29
 category: "Case studies"
-description: "Case studies are written for the vendor, not the buyer. Your future customers don't care that someone succeeded, they care whether they will."
+description: "Most case studies are written for the vendor. What HR buyers shortlisting platforms want to see, five common mistakes, and 8 questions to ask customers."
 image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787745280/5_hpgr66.png"
 ---
 I have yet to meet a B2B marketer who proudly tells me, "Our case studies are our biggest source of leads."
@@ -13,7 +14,7 @@ The irony? Case studies should be one of your most persuasive sales assets. Inst
 
 The problem isn't that buyers don't like case studies. The problem is that we've been writing them for ourselves instead of the people we're trying to convince.
 
-### What buyers are actually looking for
+## What buyers are actually looking for
 
 Imagine you've shortlisted three HR platforms. All three claim to reduce manual work. All three have AI. All three promise better outcomes.
 
@@ -27,7 +28,7 @@ Now you click into a customer story. You aren't wondering whether the vendor is 
 
 If your case study doesn't answer those questions within two minutes, you've probably lost them.
 
-### Mistake #1: Starting with the company instead of the problem
+## Mistake #1: Starting with the company instead of the problem
 
 Most case studies begin like this: "ABC Manufacturing is a leading provider of precision engineering solutions with over 2,000 employees across Asia..."
 
@@ -37,7 +38,7 @@ A much stronger opening would be: "Every payroll run took three days. HR dreaded
 
 Now I know exactly why I should keep reading. Write about the pain before the company.
 
-### Mistake #2: Turning results into marketing fluff
+## Mistake #2: Turning results into marketing fluff
 
 One of my biggest pet peeves. "We improved productivity." "We enhanced employee experience." "We increased efficiency."
 
@@ -47,7 +48,7 @@ If you have numbers, use them. Instead of "improved onboarding," try "reduced on
 
 Specificity builds credibility. Generalisations sound like marketing.
 
-### Mistake #3: Pretending implementation was magical
+## Mistake #3: Pretending implementation was magical
 
 Most case studies follow the same structure. Problem, bought software, amazing results. Somewhere in the middle, apparently, magic happened.
 
@@ -55,7 +56,7 @@ But implementation is exactly what buyers worry about. They want to know: how lo
 
 The messy parts are often the most convincing. Because that's where trust is built.
 
-### Mistake #4: Writing quotes nobody would ever say
+## Mistake #4: Writing quotes nobody would ever say
 
 Every B2B marketer has seen quotes like this: "The platform has transformed our organisation and revolutionised the way we work."
 
@@ -65,11 +66,11 @@ Real customers sound different. They say things like, "Honestly, I thought imple
 
 Those sound human. Human is believable.
 
-### Mistake #5: Making buyers work too hard
+## Mistake #5: Making buyers work too hard
 
 Most case studies look like essays. Huge blocks of text. Tiny screenshots. One photo of two executives shaking hands.
 
-Buyers don't read websites. They scan. Help them.
+[Buyers don't read websites](/blog/8-tiny-b2b-website-changes-that-increase-conversion/). They scan. Help them.
 
 Imagine your case study looked like this instead:
 
@@ -82,13 +83,13 @@ Imagine your case study looked like this instead:
 
 I can understand that in under a minute. That's exactly the point.
 
-### Design your case study like a buyer reads
+## Design your case study like a buyer reads
 
 Most companies design case studies like whitepapers. Buyers don't consume them that way. Think of your customer story as a landing page instead.
 
 Break it up. Use headings. Highlight numbers. Show screenshots. Use pull quotes. Add timelines. Make it impossible not to skim.
 
-### The eight questions every customer interview should answer
+## The eight questions every customer interview should answer
 
 Most customer interviews begin with "tell us about your company." Skip that. Instead, ask these.
 
@@ -101,15 +102,15 @@ Most customer interviews begin with "tell us about your company." Skip that. Ins
 7. **What's the one result you're proudest of?** Not ten metrics. One. Make it memorable.
 8. **If another company like yours asked whether they should buy this, what would you tell them?** This almost always becomes your best quote.
 
-### One more thing
+## One more thing
 
 Most companies hide their case studies behind a navigation menu. Then wonder why nobody reads them.
 
-Your best customer stories should appear exactly where buyers hesitate. On pricing pages. On product pages. On comparison pages. Even next to your "Book a Demo" button.
+Your best customer stories should appear exactly where buyers hesitate. On pricing pages. On product pages. [On comparison pages](/blog/stop-being-the-bigger-person/). Even next to your "Book a Demo" button.
 
 Because that's when buyers are asking themselves, "Has this actually worked for someone like me?" Don't make them go looking for the answer. Put it in front of them.
 
-### Final thought
+## Final thought
 
 The biggest mistake companies make is thinking they're writing customer success stories. They're not. They're writing buying stories.
 

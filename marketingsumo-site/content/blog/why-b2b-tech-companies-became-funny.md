@@ -1,5 +1,6 @@
 ---
 title: "Why B2B Tech Companies Suddenly Became Funny"
+seoTitle: "Why B2B Tech Brands Use Humour, and Whether It Converts"
 date: 2026-07-01
 category: "Content"
 description: "B2B tech discovered comedy. The real reason is economic: when information became free, attention became the scarce resource."
@@ -17,7 +18,7 @@ B2B tech companies have suddenly discovered humour.
 
 Not the occasional April Fool's campaign. Actual comedy. Skits. Mockumentaries. Creator-style videos.
 
-Companies that used to produce webinars and gated PDFs are now producing content that looks suspiciously like what creators have been doing for years.
+Companies that used to [produce webinars and gated PDFs](/blog/stop-wasting-your-webinar-leads/) are now producing content that looks suspiciously like what creators have been doing for years.
 
 The obvious question is: why now?
 
@@ -71,7 +72,7 @@ The lesson: humour isn't replacing demand generation. It's improving the efficie
 
 Companies like Swarmia are producing content that feels far closer to creators than traditional B2B brands.
 
-The objective is to earn a place in feeds dominated by creators and entertainment. Because that is the actual competitive set now. You're not competing against another whitepaper. You're competing against LinkedIn creators, YouTube Shorts, Instagram Reels, podcasts, memes, and everything else on the internet.
+The objective is to earn a place in feeds dominated by creators and entertainment. Because that is the actual competitive set now. You're not competing against another whitepaper. You're competing against LinkedIn creators, YouTube Shorts, Instagram Reels, [podcasts](/blog/why-every-b2b-company-should-have-a-podcast/), memes, and everything else on the internet.
 
 ## Why humour works
 

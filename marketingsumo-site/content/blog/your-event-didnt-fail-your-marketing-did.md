@@ -1,5 +1,6 @@
 ---
 title: "Your Event Didn't Fail. Your Marketing Did."
+seoTitle: "Why B2B Events Fail: It's the Marketing, Not the Event"
 date: 2026-07-22
 category: "Demand gen"
 description: "Events don't create demand. They reveal whether demand already exists. The failure usually happened months earlier."
@@ -11,15 +12,15 @@ Last month, I spoke to a company disappointed with their event.
 
 They thought the event failed. I don't think it did. I think the marketing before the event failed.
 
-### Every lead generation campaign makes a dangerous assumption
+## Every lead generation campaign makes a dangerous assumption
 
 Whenever you ask someone to book a demo, you're assuming they've already answered a surprising number of questions.
 
-They know who you are. They believe the problem is worth solving. They understand your approach. They've compared you against competitors. They trust you enough to spend 30 minutes with your sales team.
+They know who you are. They believe the problem is worth solving. They understand your approach. They've [compared you against competitors](/blog/stop-being-the-bigger-person/). They trust you enough to spend 30 minutes with your sales team.
 
 Only then does clicking "Book a Demo" become a logical next step. Yet many marketing plans start with exactly that CTA. It's like proposing marriage on the first date.
 
-### The part nobody wants to invest in
+## The part nobody wants to invest in
 
 The reason this happens is simple. The stages before lead generation are frustratingly difficult to measure.
 
@@ -29,7 +30,7 @@ You can't point to a dashboard and say, "That LinkedIn post from three months ag
 
 Ignoring awareness because it's hard to measure is like smoking one cigarette a day because you don't have lung cancer yet. The consequences aren't immediate. They're cumulative.
 
-### Then companies blame the event
+## Then companies blame the event
 
 This is where things get expensive. A company sponsors an exhibition. Or decides to host its own conference. Months of planning. Guest speakers. Booth design. Venue. Swag. Photography.
 
@@ -39,19 +40,19 @@ I disagree. Unless your event is a BTS concert, people aren't attending because 
 
 An event doesn't create demand. It reveals whether demand already exists. That's an important distinction.
 
-### Awareness isn't running ads
+## Awareness isn't running ads
 
 Whenever I say companies need awareness campaigns, someone inevitably replies, "So... spend more on ads?"
 
 No. Awareness isn't about blasting random ads to random people. It's about engineering familiarity. Retargeting is one of the simplest ways to do that.
 
-Imagine you're scrolling Instagram before work. A funny video from a coffee brand catches your attention. You watch it. That's it. On the train, you see the same coffee brand again. This time it's offering 20% off. You save the code. An hour later, you walk past their new outlet beneath your office. You recognise the logo. You remember the promotion. You buy a coffee.
+Imagine you're scrolling Instagram before work. [A funny video from a coffee brand](/blog/why-b2b-tech-companies-became-funny/) catches your attention. You watch it. That's it. On the train, you see the same coffee brand again. This time it's offering 20% off. You save the code. An hour later, you walk past their new outlet beneath your office. You recognise the logo. You remember the promotion. You buy a coffee.
 
 It feels like coincidence. It isn't. The first video placed you into a retargeting audience. Every touchpoint after that was intentional.
 
 Marketing isn't about showing more ads. It's about showing the next ad.
 
-### The Rule of 7 needs an update
+## The Rule of 7 needs an update
 
 David Ogilvy popularised the Rule of 7. People often interpret that as "show someone your brand seven times."
 
@@ -71,7 +72,7 @@ But this:
 
 Every touchpoint earns the next one. By the time you ask for the meeting, it no longer feels like a sales pitch. It feels like the natural next step.
 
-### The real job of marketing
+## The real job of marketing
 
 Too many companies treat lead generation as the beginning of the customer journey. It isn't. It's the finish line. Everything before it determines whether that lead generation campaign succeeds or fails.
 

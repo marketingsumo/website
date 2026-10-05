@@ -1,8 +1,9 @@
 ---
 title: "Why Every B2B Company Should Have a Podcast"
+seoTitle: "Why HR Tech and B2B Companies Should Start a Podcast"
 date: 2026-07-08
 category: "Podcasting"
-description: "Outbound is background noise. A podcast flips the dynamic from 'let me sell you' to 'I'd like to hear your perspective'."
+description: "A CHRO gets 81 vendor pitches a month and ignores them. A podcast invitation gets a yes. How a B2B podcast opens doors with senior HR buyers."
 image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787744340/2_o8egwb.png"
 ---
 Most B2B companies are still trying to win attention in the worst possible way: cold emails, LinkedIn DMs, "quick 15-min demo?" requests.
@@ -19,9 +20,9 @@ Emails, messages, outreach sequences, all saying some version of:
 
 At that point, it's not even about your product anymore. It's just noise. If you were in his shoes, you'd do the same thing: ignore most of it.
 
-### A moment that made this click for me
+## A moment that made this click for me
 
-One of my client's earliest enterprise customers didn't come from outbound. It came through a podcast. Not even their own.
+One of my client's earliest enterprise customers [didn't come from outbound](/blog/want-a-sales-meeting-stop-asking-for-one/). It came through a podcast. Not even their own.
 
 I was co-hosting a Channel NewsAsia podcast, and we had a CHRO on as a guest. After the recording, I casually asked her, "Have you heard of my client's company?"
 
@@ -29,13 +30,13 @@ She had. She'd already been following them.
 
 But that conversation changed something. It made it easier for her to bring them internally. Soon after, it helped accelerate conversations with almost the entire HR leadership team. That account became one of the client's key customers.
 
-### I've seen this pattern repeat
+## I've seen this pattern repeat
 
 I'm currently co-hosting another podcast, Rolling Stories, where we bring CHROs in to talk about their real experiences: what's working, what's broken, what they've learned the hard way.
 
 I don't always know if those conversations turn directly into deals. But I do know this: getting meaningful face time with senior decision-makers is getting harder every year. Not awareness, not leads. Just pure access.
 
-### Why podcasts work differently
+## Why podcasts work differently
 
 A podcast flips the dynamic.
 
@@ -43,7 +44,7 @@ Outbound says, "Let me sell you something." A podcast says, "I'd like to hear yo
 
 That small shift changes everything. People open up more. They stay longer. They drop the polished answers. And they don't feel like they're being sold to.
 
-### The uncomfortable reality about outbound
+## The uncomfortable reality about outbound
 
 When I asked that CHRO what he does with all those 81 vendor messages, he didn't hesitate. He ignores them. Every single one.
 
@@ -55,13 +56,13 @@ I don't blame him. I would do the same, because after the third one they all sou
 
 When everything looks the same, nothing stands out. Outbound stops being a channel. It becomes background noise.
 
-### What podcasts actually do
+## What podcasts actually do
 
 A podcast isn't a lead generation machine. It's a relationship shortcut. It gives you something outbound can't: a real conversation in a context where no one is selling.
 
 And something else happens after that. The guest starts associating you with that experience. And that carries further than most marketers expect.
 
-### Does it convert?
+## Does it convert?
 
 Not directly. And that's where people misunderstand it. Podcasts don't replace demand gen. They change what happens before demand gen even starts.
 

@@ -1,8 +1,9 @@
 ---
 title: "8 Tiny B2B Website Changes That Increase Conversion (That Most Companies Ignore)"
+seoTitle: "8 B2B Website Changes That Lift Conversion: HR Tech Examples"
 date: 2026-07-15
 category: "Conversion"
-description: "The websites converting best right now share one trait: they reduce the amount of imagination required from the buyer."
+description: "The best-converting B2B websites reduce how much buyers must imagine. Eight small changes, with examples from Visier, Adaface and other HR tech vendors."
 image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787744337/3_matpa4.png"
 ---
 Most B2B websites are still built like brochures. Hero statement. Features. Logos. Case studies. Contact form.
@@ -13,7 +14,7 @@ The websites converting better right now have figured out something simple: redu
 
 Here are 8 elements doing that, with the companies deploying them.
 
-### 1. Show, don't tell
+## 1. Show, don't tell
 
 **Example: CoachSim Pro.** I helped my friend rebuild it. The old version explained what the product does: "AI-powered coaching simulations help managers develop leadership skills."
 
@@ -23,21 +24,21 @@ Now the site shows the conversation. The AI responses. The feedback. The scoring
 
 **How to copy it:** Go through your homepage section by section and ask one question of each paragraph. Can this be a picture instead? "Automate your recruitment workflow" becomes the actual flow: candidate applies, AI screening, interview scheduled, decision. "Gain workforce insights" becomes a real dashboard. "Improve leadership capability" becomes an actual coaching session. A screenshot, a 20-second clip, or one sample output does in seconds what 500 words can't.
 
-### 2. The AI CTA that handles objections before sales does
+## 2. The AI CTA that handles objections before sales does
 
 **Example: Youform.** Youform's clever move isn't that they use AI. It's where they put it. They understand that a visitor who has scrolled through the whole page and hasn't clicked anything is interested but uncertain. So rather than "Contact sales," they offer something closer to: let your favourite AI tell you if Youform is right for you. The CTA becomes an objection handler.
 
-**Why it works:** Your pricing page visitor isn't ready for a demo. They want pricing clarification, implementation timeline, competitor comparison, or security info. "Book a demo" asks them to commit before they've resolved any of that.
+**Why it works:** Your pricing page visitor isn't ready for a demo. They want pricing clarification, implementation timeline, [competitor comparison](/blog/stop-being-the-bigger-person/), or security info. "Book a demo" asks them to commit before they've resolved any of that.
 
 **How to copy it:** Look at your top 3 pages. For each one, write down what a visitor is actually uncertain about at that moment. Then make the CTA answer that instead of asking for a meeting.
 
-### 3. Chatbots that know when to intervene
+## 3. Chatbots that know when to intervene
 
 **Example: Contentful.** Most chatbots behave like the shop assistant who greets you at the door before you've walked in. Contentful waits. The bot holds back until behaviour suggests intent. Long dwell time on pricing. Repeat visits. Engagement with the enterprise page. Then it opens. The logic is that of a good salesperson: this person has stopped browsing.
 
 **How to copy it:** Turn off your time-based popup trigger. Replace it with behavioural triggers. Pricing page plus 60 seconds. Second visit within 7 days. Documentation page after a pricing page visit. Those are buying signals. A 30-second timer is not.
 
-### 4. Instant calendar booking
+## 4. Instant calendar booking
 
 **Example: Arclab.** The standard demo flow: fill in a form, wait for sales, exchange 3 emails about availability, finally get a meeting 5 days later. Arclab puts the calendar on the page. CTA, calendar, booked.
 
@@ -45,13 +46,13 @@ Now the site shows the conversation. The AI responses. The feedback. The scoring
 
 **How to copy it:** Embed Cal.com or Calendly directly into your demo CTA. If your sales team insists on qualification questions, ask them on the booking screen instead of before it.
 
-### 5. Comparison pages
+## 5. Comparison pages
 
 **Example: Zoom vs Microsoft Teams.** Zoom publishes its own comparison pages against Teams, Meet, and Webex. Most companies avoid this because it feels uncomfortable to name competitors. The comparison is happening anyway. "Zoom vs Teams" gets searched whether or not Zoom shows up for it. The only question is whether you're in the room when your buyer makes the comparison, or whether you leave the page to a review site with an affiliate deal.
 
 **How to copy it:** List your top 3 competitors. Build one honest comparison page for each. Be genuinely fair about where they win. It makes the rest of the page credible.
 
-### 6. Alternative pages as a content engine
+## 6. Alternative pages as a content engine
 
 **Example: Adaface.** Adaface takes the comparison idea and industrialises it. "Best HackerRank alternatives." "Best Codility alternatives." Category pages. Top 10 lists. Best tools for specific use cases. It becomes a buyer decision library.
 
@@ -59,13 +60,13 @@ Now the site shows the conversation. The AI responses. The feedback. The scoring
 
 **How to copy it:** Every competitor gets an "alternatives" page. Every use case gets a "best tools for X" page.
 
-### 7. Make your website readable to AI
+## 7. Make your website readable to AI
 
 **Example: Buffer.** Buffer publishes an llms.txt file. Plain text, structured, written for machines rather than people. Buyers are increasingly starting with "what's the best social scheduling tool for a 20-person team?" typed into an AI assistant. That assistant is reading somebody's website to answer. The question has shifted from "how does Google rank my company" to "how does ChatGPT understand my company."
 
 **How to copy it:** Add an llms.txt at your root. Include a clear description of what you do, who you're for, your pricing structure, and links to your key pages. It takes an afternoon.
 
-### 8. Let buyers calculate the value themselves
+## 8. Let buyers calculate the value themselves
 
 **Example: Visier's Manager Turnover Calculator.** Most B2B sites tell you a problem is expensive. "Employee turnover costs money." "Bad managers drive attrition." Your buyer already knows. What they don't know is how much it's costing their company. Visier gives HR leaders a calculator. Input number of managers, average salary, turnover assumptions, get an estimated cost. The page moves from "here's why this matters" to "here's what this is costing you."
 

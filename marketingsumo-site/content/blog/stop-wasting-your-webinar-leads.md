@@ -1,9 +1,9 @@
 ---
 title: Stop Wasting Your Webinar Leads
+seoTitle: "HR Tech Webinars: How to Turn Attendees Into Pipeline"
 date: 2026-09-02
 category: Conversion
-description: Your webinar is collecting buying signals. Here’s how to turn
-  polls, Q&A and engagement into smarter follow-up.
+description: "Your webinar is collecting buying signals. Eight ways HR tech marketers can turn polls, Q&A and attendance data into smarter follow-up and pipeline."
 image: /images/featured-image-marketing-lab-008-webinar-leads-v2.png
 ---
 ## Your attendees just spent an hour telling you what they care about. Why are you sending all of them the same email?
@@ -64,7 +64,7 @@ Then later:
 
 Those two questions give you something much more useful than “87% found the webinar useful.” They give you **problem + intent**.
 
-Someone who answers *Hiring + Just researching* might get your latest hiring benchmark. Someone who answers *Workforce planning + Building the business case* gets the ROI calculator. Someone who answers *Skills visibility + Evaluating vendors* gets the relevant customer case study.
+Someone who answers *Hiring + Just researching* might get your latest hiring benchmark. Someone who answers *Workforce planning + Building the business case* gets the ROI calculator. Someone who answers *Skills visibility + Evaluating vendors* [gets the relevant customer case study](/blog/nobody-wants-to-read-your-customer-success-story/).
 
 Same webinar. Completely different follow-up.
 
@@ -196,7 +196,7 @@ Now the webinar you spent weeks producing is not finished. It becomes an evergre
 
 The mindset shift is simple:
 
-> **Do not think of your webinar as an event that produces a recording.**
+> **[Do not think of your webinar as an event](/blog/your-event-didnt-fail-your-marketing-did/) that produces a recording.**
 >
 > **Think of it as content that premieres live.**
 

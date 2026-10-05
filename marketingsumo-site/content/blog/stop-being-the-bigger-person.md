@@ -1,8 +1,9 @@
 ---
 title: "Stop Being the Bigger Person. Your Buyers Are Comparing You Anyway."
+seoTitle: "HR Tech Comparison Pages: Why You Should Name Competitors"
 date: 2026-08-05
 category: "Positioning"
-description: "'Never mention competitors' ignores how buyers actually buy. They're comparing you anyway, the only question is who shapes it."
+description: "Buyers evaluating HR software compare you anyway, and now ask AI to do it. Why HR tech vendors should publish honest comparison and 'why us' pages."
 image: "https://res.cloudinary.com/dkplx6o5e/image/upload/v1787745281/6_q9kahb.png"
 ---
 One piece of marketing advice refuses to die: "Never talk about your competitors."
@@ -22,7 +23,7 @@ Let's say you're evaluating a CRM. You're probably asking questions like:
 - Workday or SAP?
 - Greenhouse or Lever?
 
-Comparison isn't a sign someone is leaving your buying journey. Comparison is the buying journey. If your website doesn't help buyers compare, they'll find someone else's that does.
+Comparison isn't a sign someone is leaving your buying journey. Comparison is the buying journey. [If your website doesn't help buyers compare](/blog/8-tiny-b2b-website-changes-that-increase-conversion/), they'll find someone else's that does.
 
 ## The middle of the funnel is where deals are won
 

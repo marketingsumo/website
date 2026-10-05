@@ -1,11 +1,9 @@
 ---
 title: Stop Blaming AI for Your Bad Content
+seoTitle: "AI Writing Tells in B2B Content, and How to Fix Them"
 date: 2026-09-17
 category: Content
-description: Six AI writing tells still showing up in B2B content (the em-dash,
-  the forced rule of three, the fake vulnerability hook, and more), the
-  checklist to catch them before you publish, and how to feed AI your own
-  opinions instead of letting it invent its own.
+description: "Six AI writing tells still showing up in B2B content, a checklist to catch them before you publish, and how to give AI the context it's missing."
 image: /images/codex-image-17-sept-2026-10_28_27.png
 ---
 I scrolled past four different B2B posts last week doing the exact same thing: an em-dash standing in for a period, a list padded or trimmed until it landed on exactly three items, a hook manufacturing vulnerability out of thin air with no fact behind it I could check.
@@ -16,7 +14,7 @@ That excuse is gone. Every tell below takes about two minutes to catch, using to
 
 ## Six Tells Still Showing Up in B2B Content
 
-These show up everywhere: LinkedIn posts, website copy, cold outreach, case studies. Not just LinkedIn.
+These show up everywhere: LinkedIn posts, [website copy](/blog/8-tiny-b2b-website-changes-that-increase-conversion/), cold outreach, [case studies](/blog/nobody-wants-to-read-your-customer-success-story/). Not just LinkedIn.
 
 ### 1. The em-dash doing a period's job
 
