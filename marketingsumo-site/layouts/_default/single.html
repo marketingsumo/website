@@ -6,7 +6,7 @@
   <h1>{{ .Title }}</h1>
   <div class="meta">
     <img class="avatar" width="34" height="34" src="{{ .Site.Params.authorAvatar }}" alt="{{ .Site.Params.authorName }}">
-    <span>{{ .Site.Params.authorName }} · {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</span>
+    <span><a href="/about/" rel="author">{{ .Site.Params.authorName }}</a> · {{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</span>
   </div>
 </div>
 

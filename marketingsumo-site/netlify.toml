@@ -31,12 +31,7 @@
   to = "/fractional-cmo-hr-tech/"
   status = 301
 
-# Point at /about/ and /contact/ pages once they exist.
-[[redirects]]
-  from = "/about/*"
-  to = "/#about"
-  status = 301
-
+# Point at a /contact/ page once it exists.
 [[redirects]]
   from = "/contact/*"
   to = "/#contact"
@@ -54,7 +49,7 @@
 
 [[redirects]]
   from = "/author/*"
-  to = "/#about"
+  to = "/about/"
   status = 301
 
 [[redirects]]
