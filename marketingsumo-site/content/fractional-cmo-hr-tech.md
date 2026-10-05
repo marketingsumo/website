@@ -1,20 +1,20 @@
 ---
 title: Fractional CMO for HR Tech Companies in Singapore and Asia
 seoTitle: "Fractional CMO for HR Tech in Singapore: Pricing & Scope"
-description: "Hire a fractional CMO who already knows HR buyers in Asia. S$9,500 a month for about two days a week of strategy and hands-on execution. One month's notice."
+description: "Hire a fractional CMO who already knows HR buyers in Asia. S$9,000 a month for about two days a week of strategy and hands-on execution. One month's notice."
 layout: service
 kicker: Fractional CMO for HR tech
-lead: "A fractional CMO for HR tech is a senior marketing leader who works part-time inside your company, owning positioning, campaigns and pipeline without a full-time hire. Marketing Sumo is Adrian Tan's fractional CMO practice in Singapore: about two days a week for S$9,500 a month, for growth-stage HR tech vendors selling to HR buyers across Asia."
+lead: "A fractional CMO for HR tech is a senior marketing leader who works part-time inside your company, owning positioning, campaigns and pipeline without a full-time hire. Marketing Sumo is Adrian Tan's fractional CMO practice in Singapore: about two days a week for S$9,000 a month, for growth-stage HR tech vendors selling to HR buyers across Asia."
 facts:
   - label: Price
-    value: "S$9,500 / month"
+    value: "S$9,000 / month"
   - label: Time
     value: "About 2 days a week"
   - label: Commitment
     value: "Monthly, 1 month's notice"
   - label: Availability
     value: "One new client per quarter"
-price: 9500
+price: 9000
 auditPrice: 7000
 lastmod: 2026-10-05
 faq:
@@ -23,7 +23,7 @@ faq:
   - q: How many hours does a fractional CMO work?
     a: "A Marketing Sumo engagement is about two days a week. That time goes to the work that moves pipeline: setting direction, writing and creating, reviewing with sales and launching campaigns. It isn't spent on status meetings."
   - q: How much does a fractional CMO cost in Singapore?
-    a: "Marketing Sumo's fractional CMO engagement is S$9,500 a month, month to month. A one-off marketing audit and game plan is S$7,000. It covers positioning, strategy and hands-on execution of content, campaigns and sales support. Ad spend, paid tools, external production and audience placements are billed separately."
+    a: "Marketing Sumo's fractional CMO engagement is S$9,000 a month, month to month. A one-off marketing audit and game plan is S$7,000. It covers positioning, strategy and hands-on execution of content, campaigns and sales support. Ad spend, paid tools, external production and audience placements are billed separately."
   - q: Is there a minimum contract?
     a: "No minimum term. The engagement runs month to month, and you can end it with one month's notice, as set out in the statement of work. I take on one new fractional client per quarter so each one gets real attention."
   - q: Do you only work with HR tech companies?
@@ -60,7 +60,7 @@ For a VP Sales or revenue lead, that means marketing you can hold to the same st
 
 ## How much does a fractional CMO cost?
 
-**S$9,500 a month** for about two days a week. It runs month to month with no minimum term, and one month's notice to end it.
+**S$9,000 a month** for about two days a week. It runs month to month with no minimum term, and one month's notice to end it.
 
 **Not ready for a retainer?** Start with a one-off **marketing audit and game plan for S$7,000**: an audit of your market, message, funnel and current marketing across digital and offline, and a prioritised plan for what to fix first.
 

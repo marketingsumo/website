@@ -1,0 +1,72 @@
+{
+ "issue": "011",
+ "headline": [
+  "How Much Does a",
+  "Fractional CMO"
+ ],
+ "h1_size": 86,
+ "h1_top": 262,
+ "script": "Cost in Singapore?",
+ "script_size": 96,
+ "script_top": 444,
+ "script_underline": 600,
+ "sub_before": "2026 market rates and ",
+ "sub_mark": "what's usually extra.",
+ "sub_line2": "Full-time vs fractional vs agency.",
+ "sub_top": 604,
+ "bubble": [
+  "S$250K+ a year",
+  "for a full-time",
+  "CMO?"
+ ],
+ "note_yellow": [
+  "~2 days a week:",
+  "S$8K to 15K",
+  "a month"
+ ],
+ "note_purple": [
+  "Ad spend, tools,",
+  "production?",
+  "Budget extra."
+ ],
+ "notebook_title": "BUDGET PLAYBOOK",
+ "notebook_items": [
+  "Days per week",
+  "Strategy + execution",
+  "Sector expertise",
+  "What's not included"
+ ],
+ "footer": [
+  [
+   "chart",
+   "Market rates by",
+   "days a week"
+  ],
+  [
+   "scale",
+   "Full-time vs",
+   "fractional"
+  ],
+  [
+   "receipt",
+   "What's not",
+   "included"
+  ],
+  [
+   "target",
+   "Is it",
+   "worth it?"
+  ]
+ ],
+ "illustration": "pricetag",
+ "illo_left": 884,
+ "illo_top": 300,
+ "spark_left": 1150,
+ "spark_top": 262,
+ "parrow_top": null,
+ "star_top": 790,
+ "star_left": 1446,
+ "illo_scale": 0.74,
+ "book_left": 1090,
+ "book_top": 585
+}
