@@ -3,7 +3,7 @@
 {{- $base := "https://marketingsumo.co/" -}}
 {{- $posts := slice -}}
 {{- range .Pages -}}
-  {{- $posts = $posts | append (dict "@type" "BlogPosting" "@id" (print .Permalink "#article") "headline" .Title "url" .Permalink "datePublished" (.Date.Format "2006-01-02")) -}}
+  {{- $posts = $posts | append (dict "@type" "BlogPosting" "@id" (print .Permalink "#article") "headline" .Title "url" .Permalink "datePublished" (.Date.Format "2006-01-02T15:04:05-07:00")) -}}
 {{- end -}}
 {{- $blog := dict "@type" "Blog" "@id" (print $base "blog/#blog") "name" "The Marketing Lab" "description" (.Description | default .Site.Params.description) "url" .Permalink "inLanguage" "en-SG" "author" (dict "@type" "Person" "@id" (print $base "about/#person") "name" .Site.Params.authorName "url" (print $base "about/")) "publisher" (dict "@type" "Organization" "@id" (print $base "#business") "name" "Marketing Sumo" "url" $base) "blogPost" $posts -}}
 {{- $page := dict "@type" "CollectionPage" "@id" (print .Permalink "#webpage") "url" .Permalink "name" (print .Title " — Marketing Sumo") "mainEntity" (dict "@id" (print $base "blog/#blog")) "isPartOf" (dict "@id" (print $base "#website")) -}}

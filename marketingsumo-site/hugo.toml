@@ -1,5 +1,7 @@
 baseURL = "https://marketingsumo.co/"
 languageCode = "en-sg"
+# Dates in front matter are Singapore time (structured data needs full timestamps with a zone)
+timeZone = "Asia/Singapore"
 title = "Marketing Sumo"
 enableRobotsTXT = true
 summaryLength = 28
