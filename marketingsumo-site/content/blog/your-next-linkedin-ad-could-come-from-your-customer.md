@@ -6,7 +6,7 @@ category: Demand gen
 description: Turn a customer testimonial into a LinkedIn Thought Leader Ad.
   Explore Smokeball’s results and a practical test using one customer and one
   short clip.
-image: /images/your-next-ad_-customer-storytelling.png
+image: /images/marketing-lab-customer-ads.png
 ---
 You finally get a customer to agree to a video testimonial.
 
