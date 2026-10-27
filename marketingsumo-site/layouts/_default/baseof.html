@@ -108,6 +108,11 @@
   .prose pre code{background:none;border:0;padding:0}
   .prose strong{color:#fff}
   .prose img{border-radius:var(--radius);border:1px solid var(--line);height:auto}
+  .prose .embed{max-width:504px;margin:2em auto}
+  .prose .li-embed{position:relative;padding-bottom:calc(125% + 252px);border-radius:var(--radius);overflow:hidden;background:#fff}
+  .prose .li-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .prose .embed figcaption{margin-top:10px;font-size:.9rem;color:var(--text-dim);text-align:center}
+  @media(max-width:560px){.prose .li-embed{padding-bottom:calc(125% + 290px)}}
   .prose table{width:100%;border-collapse:collapse;margin:1.4em 0;font-size:.9rem;display:block;overflow-x:auto}
   .prose th,.prose td{min-width:150px;border:1px solid var(--line);padding:10px 12px;text-align:left;vertical-align:top;color:#d9d9d6}
   .prose th{background:var(--bg-card);color:var(--text);font-family:var(--font-head);font-weight:600}
