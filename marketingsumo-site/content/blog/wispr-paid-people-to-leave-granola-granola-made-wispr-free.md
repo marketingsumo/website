@@ -1,7 +1,7 @@
 ---
 title: Wispr paid people to leave Granola. Granola made Wispr free.
 seoTitle: "Wispr vs Granola: the switch campaign and the counter"
-date: 2026-11-11
+date: 2026-11-15
 category: Positioning
 description: Wispr offered to pay Granola customers to switch. Then Granola made
   dictation free and unlimited. Here's what B2B teams can copy from both moves.
